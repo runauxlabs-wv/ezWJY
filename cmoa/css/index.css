@@ -763,7 +763,7 @@ section .sec.anx .content .inner .textbox .moreBt {
     width: 140px;
     border-bottom: 1px solid #fff;
     position: absolute;
-    left: 650px;
+    right: 0;
     bottom: 0px;
     cursor: pointer;
 }
@@ -782,6 +782,7 @@ section .sec.anx .content .inner .textbox .moreBt::after {
 section .sec.anx .content .inner .rectangle {
     width: 450px;
     height: 450px;
+    margin-top: 150px;
 }
 
 section .sec.anx .content.one {
