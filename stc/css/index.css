@@ -54,7 +54,7 @@ a {
 .header-wrap .gnb .logo {
     width: 250px;
     height: 50px;
-    background: url(/image/logo_white.png) 0 0 no-repeat;
+    background: url(/portfolio/stc/img/logo_white.png) 0 0 no-repeat;
     background-size: cover;
 }
 .header-wrap .gnb .navGroup {
@@ -135,37 +135,37 @@ a {
     min-height: 1080px;
 }
 .swiper-wrapper .swiper-slide:nth-child(1) {
-    background: url(/image/main_slide1.jpg) 0 0 no-repeat;
+    background: url(/portfolio/stc/img/main_slide1.jpg) 0 0 no-repeat;
     background-size: cover;
     background-color: rgba(0, 0, 0, 0.4);
     background-blend-mode: darken;
 }
 .swiper-wrapper .swiper-slide:nth-child(2) {
-    background: url(/image/main_slide2.jpg) 0% 0 no-repeat;
+    background: url(/portfolio/stc/img/main_slide2.jpg) 0% 0 no-repeat;
     background-size: cover;
     background-color: rgba(0, 0, 0, 0.4);
     background-blend-mode: darken;
 }
 .swiper-wrapper .swiper-slide:nth-child(3) {
-    background: url(/image/main_slide3.jpg) 0 0 no-repeat;
+    background: url(/portfolio/stc/img/main_slide3.jpg) 0 0 no-repeat;
     background-size: cover;
     background-color: rgba(0, 0, 0, 0.4);
     background-blend-mode: darken;
 }
 .swiper-wrapper .swiper-slide:nth-child(4) {
-    background: url(/image/main_slide4.jpg) 0 0 no-repeat;
+    background: url(/portfolio/stc/img/main_slide4.jpg) 0 0 no-repeat;
     background-size: cover;
     background-color: rgba(0, 0, 0, 0.4);
     background-blend-mode: darken;
 }
 .swiper-wrapper .swiper-slide:nth-child(5) {
-    background: url(/image/main_slide5.jpg) 0 0 no-repeat;
+    background: url(/portfolio/stc/img/main_slide5.jpg) 0 0 no-repeat;
     background-size: cover;
     background-color: rgba(0, 0, 0, 0.4);
     background-blend-mode: darken;
 }
 .swiper-wrapper .swiper-slide:nth-child(6) {
-    background: url(/image/main_slide6.jpg) 0 0 no-repeat;
+    background: url(/portfolio/stc/img/main_slide6.jpg) 0 0 no-repeat;
     background-size: cover;
     background-color: rgba(0, 0, 0, 0.4);
     background-blend-mode: darken;
@@ -545,7 +545,7 @@ a {
 }
 
 .sec.donate {
-    background: url(/image/mainweb_1560417456602.jpg) 0 0 no-repeat;
+    background: url(/portfolio/stc/img/mainweb_1560417456602.jpg) 0 0 no-repeat;
     background-size: cover;
     background-color: rgba(0, 0, 0, 0.6);
     background-blend-mode: darken;
@@ -658,15 +658,15 @@ a {
     flex-shrink: 0;
 }
 .sec.value .inner .content .box:nth-child(1) .img {
-    background: url(/image/value_img1.jpg) 50% 50% no-repeat;
+    background: url(/portfolio/stc/img/value_img1.jpg) 50% 50% no-repeat;
     background-size: cover;
 }
 .sec.value .inner .content .box:nth-child(2) .img {
-    background: url(/image/value_img2.jpg) 50% 50% no-repeat;
+    background: url(/portfolio/stc/img/value_img2.jpg) 50% 50% no-repeat;
     background-size: cover;
 }
 .sec.value .inner .content .box:nth-child(3) .img {
-    background: url(/image/value_img3.jpg) 50% 50% no-repeat;
+    background: url(/portfolio/stc/img/value_img3.jpg) 50% 50% no-repeat;
     background-size: cover;
 }
 
