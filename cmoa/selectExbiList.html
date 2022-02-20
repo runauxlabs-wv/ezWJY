@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=2.0, minimum-scale=1.0">
+    <title>현재 전시 | 청주시립미술관</title>
+    <link rel="stylesheet" type="text/css" href="/css/selectExbiList.css">
+    <link rel="stylesheet" media="all and (max-width: 768px)" type="text/css" type="text/css" href="/css/selectExbiList_m.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+</head>
+
+<body>
+    <header>
+        <div class="gnbwrap">
+            <div class="inner">
+                <a href="/index.html" class="logo"></a>
+                <div class="navGroup">
+                    <ul class="nav">
+                        <li class="depth1">
+                            <a href="/selectExbiList.html">전시</a>
+                            <ul class="depth2">
+                                <li><a href="#tab1">현재전시</a></li>
+                                <li><a href="#tab2">예정전시</a></li>
+                                <li><a href="#tab3">지난전시</a></li>
+                            </ul>
+                        </li>
+                        <li class="depth1">
+                            <a href="/selectVisit.html">방문</a>
+                            <ul class="depth2">
+                                <li><a href="/selectVisit.html">오시는 길</a></li>
+                                <li><a href="/selectVisit.html#tab2">관람안내</a></li>
+                                <li><a href="/selectVisit.html#tab3">배치도</a></li>
+                            </ul>
+                        </li>
+                        <li class="depth1">
+                            <a href="/selectEduList.html">교육/행사</a>
+                            <ul class="depth2">
+                                <li><a href="/selectEduList.html">월간일정</a></li>
+                                <li><a href="#">교육프로그램</a></li>
+                                <li><a href="#">문화행사</a></li>
+                            </ul>
+                        </li>
+                        <li class="depth1">
+                            <a href="#">커뮤니티</a>
+                            <ul class="depth2">
+                                <li><a href="#">소식</a></li>
+                                <li><a href="#">공지사항</a></li>
+                                <li><a href="#">자주묻는 질문</a></li>
+                                <li><a href="#">자유게시판</a></li>
+                                <li><a href="#">칭찬합니다</a></li>
+                                <li><a href="#">건의사항</a></li>
+                            </ul>
+                        </li>
+                        <li class="depth1">
+                            <a href="#">소장품/자료</a>
+                            <ul class="depth2">
+                                <li><a href="#">소장품</a></li>
+                                <li><a href="#">미술관 자료</a></li>
+                            </ul>
+                        </li>
+                        <li class="depth1">
+                            <a href="#">소개</a>
+                            <ul class="depth2">
+                                <li><a href="#">인사말</a></li>
+                                <li><a href="#">연혁</a></li>
+                                <li><a href="#">건축</a></li>
+                                <li><a href="#">운영조례</a></li>
+                                <li><a href="#">MI</a></li>
+                                <li><a href="#">건축도</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <div class="BtGroup">
+                        <a><span class="fas fa-user userBt"></span></a>
+                        <a><span class="fas fa-search searchBt"></span></a>
+                        <a href="#" class="lang">ENG<span class="fas fa-sort-down downBt"></span></a>
+                        <a><span class="material-icons md-48 md-light mMenuBt">menu</span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="sns">
+            <a href="https://www.instagram.com/cmoa_cheongju_museum_of_art/" target="_blank" class="insta"><span
+                    class="fab fa-instagram"></span></a>
+            <a href="https://www.facebook.com/cmoa.or.kr" target="_blank" class="face"><span
+                    class="fab fa-facebook-square"></span></a>
+            <a href="https://www.youtube.com/channel/UCbQAfhI1OZbmn__Ttd5nB5w" target="_blank" class="youtube"><span
+                    class="fab fa-youtube"></span></a>
+        </div>
+    </header>
+    <section>
+        <div class="inner tab clearfix">
+            <aside>
+                <ul class="nav-tabs">
+                    <li><a href="#">전시</a></li>
+                    <li><a href="#tab1" data-id="tab1" class="on">현재 전시</a></li>
+                    <li><a href="#tab2" data-id="tab2">예정 전시</a></li>
+                    <li><a href="#tab3" data-id="tab3">지난 전시</a></li>
+                </ul>
+            </aside>
+            <main>
+                <ul class="breadcrumb clearfix">
+                    <li><a href="#">현재 전시</a></li>
+                    <li><a href="#">전시</a></li>
+                    <li><a href="/index.html">HOME</a></li>
+                </ul>
+                <ul class="filter-tabs clearfix">
+                    <li class="filter active" data-filter="all"><a href="#">전체</a></li>
+                    <li class="filter" data-filter="cmoa"><a href="#">청주시립미술관</a></li>
+                    <li class="filter" data-filter="dae"><a href="#">청주시립대청호미술관</a></li>
+                    <li class="filter" data-filter="stu"><a href="#">청주미술창작스튜디오</a></li>
+                    <li class="filter" data-filter="ocha"><a href="#">오창전시관</a></li>
+                </ul>
+                <div id="tab1" class="conBox on">
+                    <a href="/speclExbiView.html#exhi1" class="box all cmoa">
+                        <div class="textbox">
+                            <div class="title">
+                                <p class="agency">청주시립미술관</p>
+                                <p class="title">빛으로 그리는 신세계: 찬란하고 황홀하게</p>
+                            </div>
+                            <ul>
+                                <li>
+                                    <span>참여작가</span>
+                                    <span>김윤철, 문준용, 박기원, 박진아, 백남준, 신봉철, 우제길, 이이남, 하동철 </span>
+                                </li>
+                                <li>
+                                    <span>전시기간</span>
+                                    <span>2021-09-17 ~ 2021-12-19</span>
+                                </li>
+                                <li>
+                                    <span>전시장소</span>
+                                    <span>청주시립미술관 1층 로비, 2층, 3층 전시실</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="img"></div>
+                    </a>
+                    <a href="/speclExbiView.html#exhi2" class="box all dae">
+                        <div class="textbox">
+                            <div class="title">
+                                <p class="agency">청주시립대청호미술관</p>
+                                <p class="title">물과 바람의 시간</p>
+                            </div>
+                            <ul>
+                                <li>
+                                    <span>참여작가</span>
+                                    <span>권효정, 김소산, 김유정, 김재연, 김준기, 박형진, 서소형 </span>
+                                </li>
+                                <li>
+                                    <span>전시기간</span>
+                                    <span>2021-10-22 ~ 2022-01-16</span>
+                                </li>
+                                <li>
+                                    <span>전시장소</span>
+                                    <span>청주시립대청호미술관</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="img"></div>
+                    </a>
+                    <a href="/speclExbiView.html#exhi3" class="box all dae">
+                        <div class="textbox">
+                            <div class="title">
+                                <p class="agency">청주시립대청호미술관</p>
+                                <p class="title">2021 청주시립대청호미술관 환경미술프로젝트 </p>
+                            </div>
+                            <ul>
+                                <li>
+                                    <span>참여작가</span>
+                                    <span>강현덕, 이종국, 이홍원, 조은필, 차재영, 최규락 </span>
+                                </li>
+                                <li>
+                                    <span>전시기간</span>
+                                    <span>2021-11-11 ~ 2021-12-12</span>
+                                </li>
+                                <li>
+                                    <span>전시장소</span>
+                                    <span>문의면 대청호 일원 + 대청호미술관 전관</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="img"></div>
+                    </a>
+                    <a href="/speclExbiView.html#exhi4" class="box all ocha">
+                        <div class="textbox">
+                            <div class="title">
+                                <p class="agency">청주오창전시관</p>
+                                <p class="title">이채연 개인전 &lt;엄마에게&gt;</p>
+                            </div>
+                            <ul>
+                                <li>
+                                    <span>참여작가</span>
+                                    <span>이채연</span>
+                                </li>
+                                <li>
+                                    <span>전시기간</span>
+                                    <span>2021-12-01 ~ 2021-12-14</span>
+                                </li>
+                                <li>
+                                    <span>전시장소</span>
+                                    <span>청주시립미술관 오창전시관 (오창호수도서관 2층)</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="img"></div>
+                    </a>
+                    <a href="/speclExbiView.html#exhi5" class="box all stu">
+                        <div class="textbox">
+                            <div class="title">
+                                <p class="agency">청주미술창작스튜디오</p>
+                                <p class="title">신선우: 카세와놉시 프로젝트 </p>
+                            </div>
+                            <ul>
+                                <li>
+                                    <span>참여작가</span>
+                                    <span>신선우</span>
+                                </li>
+                                <li>
+                                    <span>전시기간</span>
+                                    <span>2021-12-02 ~ 2021-12-12</span>
+                                </li>
+                                <li>
+                                    <span>전시장소</span>
+                                    <span>청주미술창작스튜디오 1층</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="img"></div>
+                    </a>
+                    <a href="/speclExbiView.html#exhi6" class="box all stu">
+                        <div class="textbox">
+                            <div class="title">
+                                <p class="agency">청주미술창작스튜디오</p>
+                                <p class="title">서인혜: 구멍 난 자리에서 춤을 추는</p>
+                            </div>
+                            <ul>
+                                <li>
+                                    <span>참여작가</span>
+                                    <span>서인혜</span>
+                                </li>
+                                <li>
+                                    <span>전시기간</span>
+                                    <span>2021-12-02 ~ 2021-12-12</span>
+                                </li>
+                                <li>
+                                    <span>전시장소</span>
+                                    <span>청주미술창작스튜디오 2층</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="img"></div>
+                    </a>
+                    <a href="/speclExbiView.html#exhi7" class="box all cmoa">
+                        <div class="textbox">
+                            <div class="title">
+                                <p class="agency">청주시립미술관</p>
+                                <p class="title">로컬 프로젝트 2021 장백순 : 空 </p>
+                            </div>
+                            <ul>
+                                <li>
+                                    <span>참여작가</span>
+                                    <span>장백순</span>
+                                </li>
+                                <li>
+                                    <span>전시기간</span>
+                                    <span>2021-12-02 ~ 2022-02-06</span>
+                                </li>
+                                <li>
+                                    <span>전시장소</span>
+                                    <span>청주시립미술관 1층 전시실</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="img"></div>
+                    </a>
+                    <a href="/speclExbiView.html#exhi8" class="box all ocha">
+                        <div class="textbox">
+                            <div class="title">
+                                <p class="agency">청주오창전시관</p>
+                                <p class="title">증강풍경 AR展</p>
+                            </div>
+                            <ul>
+                                <li>
+                                    <span>전시기간</span>
+                                    <span>2021-12-10 ~ 2022-02-27</span>
+                                </li>
+                                <li>
+                                    <span>전시장소</span>
+                                    <span>청주시립미술관 오창전시관 (오창호수도서관 2층)</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="img"></div>
+                    </a>
+                </div>
+                <div id="tab2" class="conBox">
+                    <a href="/speclExbiView.html#exhi9" class="box all stu">
+                        <div class="textbox">
+                            <div class="title">
+                                <p class="agency">청주미술창작스튜디오</p>
+                                <p class="title">민정: Green gables happening</p>
+                            </div>
+                            <ul>
+                                <li>
+                                    <span>참여작가</span>
+                                    <span>민정See Minjungsee</span>
+                                </li>
+                                <li>
+                                    <span>전시기간</span>
+                                    <span>2021-11-11 ~ 2021-11-21</span>
+                                </li>
+                                <li>
+                                    <span>전시장소</span>
+                                    <span>청주미술창작스튜디오 1층+윈도우갤러리</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="img"></div>
+                    </a>
+                    <a href="/speclExbiView.html#exhi10" class="box all stu">
+                        <div class="textbox">
+                            <div class="title">
+                                <p class="agency">청주미술창작스튜디오</p>
+                                <p class="title">손혜경: 머티리얼리즘</p>
+                            </div>
+                            <ul>
+                                <li>
+                                    <span>참여작가</span>
+                                    <span>손혜경 Son Hye Kyung</span>
+                                </li>
+                                <li>
+                                    <span>전시기간</span>
+                                    <span>2021-11-11 ~ 2021-11-21</span>
+                                </li>
+                                <li>
+                                    <span>전시장소</span>
+                                    <span>청주미술창작스튜디오 2층+윈도우갤러리</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="img"></div>
+                    </a>
+                    <a href="/speclExbiView.html#exhi11" class="box all ocha">
+                        <div class="textbox">
+                            <div class="title">
+                                <p class="agency">청주오창전시관</p>
+                                <p class="title">빛으로 그리는 신세계: 계산된 빛의 유동</p>
+                            </div>
+                            <ul>
+                                <li>
+                                    <span>참여작가</span>
+                                    <span>양민하</span>
+                                </li>
+                                <li>
+                                    <span>전시기간</span>
+                                    <span>2021-09-09 ~ 2021-11-21</span>
+                                </li>
+                                <li>
+                                    <span>전시장소</span>
+                                    <span>오창전시관</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="img"></div>
+                    </a>
+                    <a href="/speclExbiView.html#exhi12" class="box all cmoa">
+                        <div class="textbox">
+                            <div class="title">
+                                <p class="agency">청주시립미술관</p>
+                                <p class="title">빛으로 그리는 신세계: 보이지 않는 눈</p>
+                            </div>
+                            <ul>
+                                <li>
+                                    <span>참여작가</span>
+                                    <span> 제니퍼 스타인캠프</span>
+                                </li>
+                                <li>
+                                    <span>전시기간</span>
+                                    <span>2021-09-17 ~ 2021-11-14</span>
+                                </li>
+                                <li>
+                                    <span>전시장소</span>
+                                    <span>청주시립미술관 1층 전시실</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="img"></div>
+                    </a>
+                    <a href="/speclExbiView.html#exhi13" class="box all cmoa">
+                        <div class="textbox">
+                            <div class="title">
+                                <p class="agency">청주시립미술관</p>
+                                <p class="title">김재관_기하학적 추상회화 55년</p>
+                            </div>
+                            <ul>
+                                <li>
+                                    <span>참여작가</span>
+                                    <span> 김재관</span>
+                                </li>
+                                <li>
+                                    <span>전시기간</span>
+                                    <span>2021-07-01 ~ 2021-09-05</span>
+                                </li>
+                                <li>
+                                    <span>전시장소</span>
+                                    <span>청주시립미술관 2층, 3층 전시실</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="img"></div>
+                    </a>
+                    <a href="/speclExbiView.html#exhi14" class="box all dae">
+                        <div class="textbox">
+                            <div class="title">
+                                <p class="agency">청주시립대청호미술관</p>
+                                <p class="title">2021 대청호미술관 전시지원 공모 선정전 공:동</p>
+                            </div>
+                            <ul>
+                                <li>
+                                    <span>참여작가</span>
+                                    <span> 김준명, 최윤정, 나나와 펠릭스, 권용래, 전수경</span>
+                                </li>
+                                <li>
+                                    <span>전시기간</span>
+                                    <span>2021-05-04 ~ 2021-08-08</span>
+                                </li>
+                                <li>
+                                    <span>전시장소</span>
+                                    <span> 청주시립대청호미술관
+
+                                    </span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="img"></div>
+                    </a>
+                    <a href="/speclExbiView.html#exhi15" class="box all ocha">
+                        <div class="textbox">
+                            <div class="title">
+                                <p class="agency">청주오창전시관</p>
+                                <p class="title">HELLO_이야기가 있는 미술관</p>
+                            </div>
+                            <ul>
+                                <li>
+                                    <span>참여작가</span>
+                                    <span> 한젬마, 제니 스위딘</span>
+                                </li>
+                                <li>
+                                    <span>전시기간</span>
+                                    <span>2021-06-29 ~ 2021-07-18</span>
+                                </li>
+                                <li>
+                                    <span>전시장소</span>
+                                    <span> 청주시립미술관 오창전시관 (오창호수도서관 2층)</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="img"></div>
+                    </a>
+                    <a href="/speclExbiView.html#exhi16" class="box all dae">
+                        <div class="textbox">
+                            <div class="title">
+                                <p class="agency">청주시립대청호미술관</p>
+                                <p class="title">퍼블릭아트 뉴히어로</p>
+                            </div>
+                            <ul>
+                                <li>
+                                    <span>참여작가</span>
+                                    <span> 구수현, 권아람, 김동찬, 김동형, 김우진, 김은설, 김준수, 박관택, 신현정, 안상훈, 이여운, 이은선, 이정우, 이희준, 임노식,
+                                        장진승, 전주연, 조호영, 지희킴, 최재영, 추연신, 홍성준, 홍유영, 황원해, 황학삼</span>
+                                </li>
+                                <li>
+                                    <span>전시기간</span>
+                                    <span>2021-03-16 ~ 2021-04-11</span>
+                                </li>
+                                <li>
+                                    <span>전시장소</span>
+                                    <span> 청주시립대청호미술관</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="img"></div>
+                    </a>
+                </div>
+                <div id="tab3" class="conBox">
+                    <a href="/speclExbiView.html#exhi17" class="box all stu">
+                        <div class="textbox">
+                            <div class="title">
+                                <p class="agency">청주미술창작스튜디오</p>
+                                <p class="title">조민선 Cho Minsun : re-flection </p>
+                            </div>
+                            <ul>
+                                <li>
+                                    <span>참여작가</span>
+                                    <span>조민선 Cho Minsun </span>
+                                </li>
+                                <li>
+                                    <span>전시기간</span>
+                                    <span>2021-12-21 ~ 2021-12-31</span>
+                                </li>
+                                <li>
+                                    <span>전시장소</span>
+                                    <span>청주미술창작스튜디오 1층 + 윈도우갤러리</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="img"></div>
+                    </a>
+                    <a href="/speclExbiView.html#exhi18" class="box all stu">
+                        <div class="textbox">
+                            <div class="title">
+                                <p class="agency">청주미술창작스튜디오</p>
+                                <p class="title">박문희 Park Mun Hee : Silent Orb’s Things </p>
+                            </div>
+                            <ul>
+                                <li>
+                                    <span>참여작가</span>
+                                    <span>박문희 Park Mun Hee </span>
+                                </li>
+                                <li>
+                                    <span>전시기간</span>
+                                    <span>2021-12-21 ~ 2021-12-31</span>
+                                </li>
+                                <li>
+                                    <span>전시장소</span>
+                                    <span>청주미술창작스튜디오 2층</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="img"></div>
+                    </a>
+                    <p class="notice">해당하는 전시가 없습니다.</p>
+                </div>
+            </main>
+        </div>
+    </section>
+
+    <footer>
+        <div class="inner">
+            <div class="left">
+                <div class="top">
+                    <span>개인정보처리방침</span>
+                    <span>이메일주소무단수집거부</span>
+                </div>
+
+                <p>COPYRIGHT ⓒ 2016CHEONGJU MUSEUM OF ART ALL RIGHTS RESERVED</p>
+            </div>
+            <div class="right">
+                <a href="#" class="cmoaLogo"></a>
+                <a href="#" class="cmoLogo"></a>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="/js/jquery-3.6.0.min.js"></script>
+    <script src="/lib/IE-Checker/ie-checker.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="/js/selectExbiList.js"></script>
+</body>
+
+</html>

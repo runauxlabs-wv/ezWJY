@@ -1,0 +1,793 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css');
+/* font-awesome 5.11ver */
+@import url('https://fonts.googleapis.com/css2?family=Material+Icons+Outlined');
+/* Material Icons Outlined*/
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+/* Material Icons */
+@import url('/css/selectEdulistIEstyle.css');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* outline: 1px solid rgba(255, 0, 0, 0.3); */
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+.inner {
+    margin: 0 auto;
+}
+
+body {
+    min-width: 1920px;
+}
+
+ul,
+li,
+a {
+    list-style: none;
+    text-decoration: none;
+    color: #000;
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+header {
+    height: 300px;
+    background: url(/image/con_cmoa.png) 0 0 no-repeat;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.7);
+    background-blend-mode: darken;
+}
+
+header .gnbwrap {
+    width: 1920px;
+    height: 300px;
+    margin: 0 auto;
+    position: relative;
+}
+
+header .navGroup:hover .nav .depth1 .depth2,
+header .inner:hover .navGroup .nav .depth1 .depth2 {
+    visibility: visible;
+}
+
+header .inner {
+    width: 1850px;
+    height: 100px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+    position: absolute;
+    left: 60px;
+    z-index: 500;
+}
+
+header .inner:hover {
+    background: rgba(0, 0, 0, 0.9);
+    height: auto;
+    z-index: 500;
+    transition: all 0.5s;
+}
+
+header .inner .logo {
+    width: 169px;
+    height: 80px;
+    background: url(/image/logo_white.png) 50% 50% no-repeat;
+    display: block;
+}
+
+header .inner .navGroup {
+    display: flex;
+    align-items: flex-start;
+}
+
+header .inner .navGroup .nav {
+    display: flex;
+}
+
+header .inner .navGroup .nav .depth1 {
+    margin-right: 50px;
+}
+
+header .inner .navGroup .nav .depth1 a {
+    font-size: 22px;
+    font-weight: 500;
+    color: #aaa;
+    padding: 5px 15px;
+    display: inline-block;
+    width: 100%;
+}
+
+header .inner .navGroup .nav .depth1:nth-child(1) a,
+header .inner .navGroup .nav .depth1:nth-child(2) a,
+header .inner .navGroup .nav .depth1:nth-child(3) a {
+    color: #fff;
+}
+
+header .inner .navGroup .nav .depth1 .depth2 {
+    display: block;
+    margin-top: 15px;
+    visibility: hidden;
+}
+
+header .inner .navGroup .nav .depth1 .depth2 li {
+    margin-bottom: 10px;
+}
+
+header .inner .navGroup .nav .depth1 .depth2 li a {
+    display: block;
+    font-size: 20px;
+    font-weight: 300;
+    padding: 8px 12px;
+}
+
+header .inner .navGroup .nav .depth1:nth-child(3) .depth2 li:nth-child(2) a,
+header .inner .navGroup .nav .depth1:nth-child(3) .depth2 li:nth-child(3) a {
+    color: #aaa;
+}
+
+header .inner .navGroup .nav .depth1 .depth2 li a:hover {
+    border-bottom: 1px solid #aaa;
+}
+
+header .inner .navGroup .BtGroup {
+    display: flex;
+    align-items: center;
+}
+
+header .inner .navGroup .BtGroup .userBt,
+header .inner .navGroup .BtGroup .searchBt,
+header .inner .navGroup .BtGroup .mMenuBt {
+    padding: 10px;
+    margin-right: 30px;
+    font-size: 22px;
+    color: #fff;
+    cursor: pointer;
+}
+
+header .inner .navGroup .BtGroup .mMenuBt {
+    margin: 0;
+    display: none;
+}
+
+header .inner .navGroup .BtGroup .lang {
+    color: #fff;
+    font-size: 20px;
+    margin-right: 30px;
+    /* align-self: center; */
+}
+
+header .inner .navGroup .BtGroup .lang .downBt {
+    padding: 5px;
+    margin-left: 5px;
+}
+
+header .sns {
+    display: none;
+}
+
+section {
+    background: #EDEDED;
+    height: 3100px;
+}
+
+section .inner {
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+section .inner main .breadcrumb {
+    padding: 47px 30px 30px 30px;
+}
+
+section .inner main .breadcrumb li {
+    float: right;
+}
+
+section .inner main .breadcrumb li a {
+    font-size: 18px;
+}
+
+section .inner main .breadcrumb li+li::after {
+    content: "\003E";
+    padding: 0 10px;
+}
+
+section .inner main .nav {
+    padding: 40px 30px 0 30px;
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid #878787;
+}
+
+section .inner main .nav li {
+    margin-right: 100px;
+    display: flex;
+}
+
+section .inner main .nav li:last-child {
+    margin-right: 0;
+}
+
+section .inner main .nav li a {
+    font-size: 25px;
+    font-weight: 500;
+    padding: 10px;
+}
+
+section .inner main .nav li:first-child a,
+section .inner main .nav li:hover a {
+    font-weight: 600;
+    border-bottom: 1px solid #000;
+}
+
+section .inner main .content {
+    padding-top: 100px;
+}
+
+section .inner main .content .monthly {
+    margin-bottom: 90px;
+}
+
+section .inner main .content .monthly .category {
+    display: flex;
+    justify-content: right;
+}
+
+section .inner main .content .monthly .category li {
+    font-size: 18px;
+    /* list-style: disc; */
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+}
+
+section .inner main .content .monthly .category li span {
+    display: inline-block;
+    width: 17px;
+    height: 17px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+section .inner main .content .monthly .category li:nth-child(1) span {
+    background: #A04A6D;
+}
+
+section .inner main .content .monthly .category li:nth-child(2) span {
+    background: #465782;
+}
+
+section .inner main .content .monthly .category li:nth-child(3) span {
+    background: #E4A91D;
+}
+
+section .inner main .content .monthly .category li:nth-child(4) span {
+    background: #8D9542;
+}
+
+section .inner main .content .monthly .category li:last-child {
+    margin-right: 0;
+}
+
+section .inner main .content .monthly .calendar {
+    width: 100%;
+    height: 1200px;
+    margin-top: 45px;
+}
+
+section .inner main .content .monthly #calendar {
+    height: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+section .inner main .content .monthly #calendar .fc-today-button,
+section .inner main .content .monthly #calendar .fc-button-group,
+section .inner main .content .monthly #calendar .fc-button-group button {
+    display: block;
+}
+
+section .inner main .content .monthly #calendar .fc-head {
+    display: block;
+    margin-bottom: 20px;
+}
+section .inner main .content .monthly #calendar .fc-day-header {
+    display: inline-block;
+    width: 160px;
+    height: 45px;
+    background: #393939;
+    border-radius: 8px;
+}
+
+.fc hr,
+.fc tbody,
+.fc td,
+.fc th,
+.fc thead,
+.fc-row {
+    background: none;
+    border: none;
+}
+
+.fc tbody .fc-row .fc-content-skeleton table {
+    height: 180px;
+}
+
+section .inner main .content .monthly #calendar .fc-row,
+section .inner main .content .monthly #calendar .fc-row thead {
+    background: transparent;
+    border: none;
+}
+
+section .inner main .content .monthly #calendar .fc-head .fc-row tr {
+    display: flex;
+    justify-content: space-between;
+}
+
+section .inner main .content .monthly #calendar .fc-day-header span {
+    line-height: 45px;
+    color: #fff;
+}
+
+/* section .inner main .content .monthly #calendar .fc-content-skeleton tr {
+    display: flex;
+    justify-content: space-between;
+} */
+/* section .inner main .content .monthly #calendar .fc-day-top {
+    display: inline-block;
+    width: 160px;
+    height: 180px;
+} */
+section .inner main .content .monthly #calendar .fc-bgevent-skeleton {
+    display: block;
+}
+
+section .inner main .content .monthly #calendar .fc-bgevent-skeleton tr {
+    display: flex;
+    width: 1200px;
+    justify-content: space-between;
+}
+
+section .inner main .content .monthly #calendar .fc-bgevent-skeleton .fc-day-top {
+    display: inline-block;
+    width: 160px;
+    height: 180px;
+    border-radius: 8px;
+    background: #fff;
+}
+section .inner main .content .monthly #calendar .fc-content-skeleton .fc-day-top .fc-day-number {
+    float: left;
+    padding: 20px;
+}
+
+/* section .inner main .content .monthly #calendar .fc-bgevent-skeleton tr {
+    display: flex;
+    justify-content: space-between;
+}
+section .inner main .content .monthly #calendar .fc-bgevent-skeleton td {
+    display: inline-block;
+    width: 160px;
+    height: 180px;
+    background: #fff;
+    border-radius: 8px;
+    box-sizing: border-box;
+} */
+/* section .inner main .content .monthly #calendar .fc-scroller {
+    overflow: hidden;
+}
+
+section .inner main .content .monthly #calendar .fc-col-header tr,
+.fc-scrollgrid-sync-table tr {
+    display: flex;
+    justify-content: space-between;
+}
+
+section .inner main .content .monthly #calendar .fc-scrollgrid-sync-table tbody {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 1000px;
+}
+.fc-scroller-harness {
+    margin-top: 15px;
+}
+.fc-theme-standard .fc-scrollgrid,
+.fc-theme-standard td,
+.fc-theme-standard th {
+    border: none;
+}
+
+section .inner main .content .monthly #calendar .fc-col-header-cell-cushion {
+    font-size: 25px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+section .inner main .content .monthly #calendar .fc-col-header-cell {
+    width: 160px;
+    height: 45px;
+    background: #393939;
+    border-radius: 8px;
+}
+
+section .inner main .content .monthly #calendar .fc-daygrid-day {
+    width: 160px;
+    height: 180px;
+    background: #fff;
+    border-radius: 8px;
+    flex-shrink: 0;
+}
+
+section .inner main .content .monthly #calendar .fc-day-today {
+    background: rgba(255, 255, 255, 0.5)
+}
+
+section .inner main .content .monthly #calendar .fc-daygrid-day-top {
+    flex-direction: row;
+}
+
+section .inner main .content .monthly #calendar .fc-daygrid-day-number {
+    padding: 25px;
+    font-size: 28px;
+}
+section .inner main .content .monthly #calendar .fc-event {
+    height: 8px;
+}
+section .inner main .content .monthly #calendar .fc-event-title.fc-sticky {
+    display: none;
+}
+
+.fc-event-container .fc-event {     margin-bottom: 10px; } */
+
+section .inner main .content .today {
+    width: 100%;
+    height: 800px;
+    padding: 50px;
+    background: #fff;
+    border-radius: 8px;
+    margin-bottom: 90px;
+}
+
+section .inner main .content .today h3 {
+    font-size: 35px;
+}
+
+section .inner main .content .today .bottom {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+}
+
+section .inner main .content .today .bottom .day {
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    align-items: center;
+    justify-content: space-between;
+    width: 150px;
+    height: 150px;
+    background: #ECECEC;
+    padding: 25px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+section .inner main .content .today .bottom .day span {
+    font-size: 18px;
+}
+
+section .inner main .content .today .bottom .day span:nth-child(2) {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+section .inner main .content .today .bottom .todayExhiList .slick-list {
+    min-height: 700px;
+}
+
+section .inner main .content .today .bottom .todayExhiList .slick-track {
+    max-width: 500px;
+}
+
+section .inner main .content .today .bottom .todayExhiList .swiper-slide {
+    width: 500px;
+    height: 100px;
+    margin-bottom: 30px;
+}
+
+section .inner main .content .today .bottom .todayExhiList {
+    position: relative;
+}
+
+section .inner main .content .today .bottom .exhiScroll {
+    height: 535px;
+}
+
+section .inner main .content .today .bottom .exhiScroll .exhilist {
+    width: 500px;
+    height: 100px;
+    background: #ECECEC;
+    border-radius: 8px;
+    display: flex;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+
+section .inner main .content .today .bottom .exhiScroll .exhilist:hover {
+    background: #e4e4e4;
+}
+
+section .inner main .content .today .bottom .exhiScroll .exhilist .cg {
+    font-size: 20px;
+    display: inline-block;
+    width: 70px;
+    height: 100%;
+    text-align: center;
+    line-height: 100px;
+    position: relative;
+    flex-shrink: 0;
+}
+
+section .inner main .content .today .bottom .exhiScroll .exhilist .cg::after {
+    content: "";
+    display: inline-block;
+    width: 1px;
+    height: 70%;
+    background: #A7A7A7;
+    position: absolute;
+    top: 20%;
+    right: 0;
+}
+
+section .inner main .content .today .bottom .exhiScroll .exhilist .right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 430px;
+    padding: 20px;
+}
+
+section .inner main .content .today .bottom .exhiScroll .exhilist .right .ag {
+    font-size: 18px;
+}
+
+section .inner main .content .today .bottom .exhiScroll .exhilist .right .title {
+    font-size: 20px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+section .inner main .content .today .bottom .todayExhiList .scrollBt {
+    color: #878787;
+    transform: rotate(90deg);
+    position: absolute;
+    top: 590px;
+    --swiper-navigation-size: 30px;
+}
+
+section .inner main .content .today .bottom .todayExhiList .scrollBt svg {
+    width: 0px;
+    height: 0px;
+}
+
+section .inner main .content .today .bottom .todayExhiList .scrollBt.swiper-button-next {
+    left: 50%;
+}
+
+section .inner main .content .today .bottom .todayExhiList .scrollBt.swiper-button-prev {
+    left: 40%;
+}
+
+section .inner main .content .today .bottom .exhiView {
+    position: relative;
+    cursor: pointer;
+}
+
+section .inner main .content .today .bottom .exhiView .exhi.on {
+    display: inline-block;
+}
+
+section .inner main .content .today .bottom .exhiView .exhi {
+    width: 300px;
+    height: 100%;
+    display: none;
+    border: 1px solid #ECECEC;
+    background: #ECECEC;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+section .inner main .content .today .bottom .exhiView .exhi .img {
+    width: 250px;
+    height: 250px;
+    /* margin: 30px auto 30px auto; */
+    margin: 0 auto;
+}
+
+section .inner main .content .today .bottom .exhiView .exhi:nth-child(1) .img {
+    background: url(/image/exhi_pres_cmoa_right.jpg) 0 0 no-repeat;
+    background-size: cover;
+}
+
+section .inner main .content .today .bottom .exhiView .exhi:nth-child(2) .img {
+    background: url(/image/exhi_pres_dae_time.jpg) 0 0 no-repeat;
+    background-size: cover;
+}
+
+section .inner main .content .today .bottom .exhiView .exhi:nth-child(3) .img {
+    background: url(/image/exhi_pres_dae_envi.jpg) 50% 50% no-repeat;
+    background-size: cover;
+}
+
+section .inner main .content .today .bottom .exhiView .exhi:nth-child(4) .img {
+    background: url(/image/exhi_pres_ocha_lee.jpg) 50% 50% no-repeat;
+    background-size: cover;
+}
+
+section .inner main .content .today .bottom .exhiView .exhi:nth-child(5) .img {
+    background: url(/image/exhi_pres_stu_chaos.jpg) 50% 50% no-repeat;
+    background-size: cover;
+}
+
+section .inner main .content .today .bottom .exhiView .exhi:nth-child(6) .img {
+    background: url(/image/exhi_pres_stu_dancing.jpg) 50% 50% no-repeat;
+    background-size: cover;
+}
+
+section .inner main .content .today .bottom .exhiView .exhi:nth-child(7) .img {
+    background: url(/image/exhi_pres_cmoa_jang.jpg) 50% 50% no-repeat;
+    background-size: cover;
+}
+
+section .inner main .content .today .bottom .exhiView .exhi:nth-child(8) .img {
+    background: url(/image/exhi_pres_ocha_ar.png) 50% 50% no-repeat;
+    background-size: cover;
+}
+
+section .inner main .content .today .bottom .exhiView .exhi p {
+    font-size: 20px;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-bottom: 30px;
+    width: 250px;
+    margin: 20px auto 10px auto;
+}
+
+section .inner main .content .today .bottom .exhiView .exhi .info {
+    margin: 0 auto;
+    width: 250px;
+}
+
+section .inner main .content .today .bottom .exhiView .exhi .info li {
+    display: flex;
+    font-size: 12px;
+}
+
+section .inner main .content .today .bottom .exhiView .exhi .info li:nth-child(2) {
+    margin: 10px 0;
+}
+
+section .inner main .content .today .bottom .exhiView .exhi .info li span:first-child {
+    position: relative;
+    display: block;
+    flex-shrink: 0;
+    width: 70px;
+}
+
+section .inner main .content .today .bottom .exhiView .exhi .info li span:first-child::after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 6px;
+    right: 0;
+    height: 80%;
+    width: 1px;
+    background: #000;
+}
+
+section .inner main .content .today .bottom .exhiView .exhi .info li span:last-child {
+    padding: 0 0 0 20px;
+}
+
+section .inner main .content .today .bottom .exhiView .exhi .moreBt {
+    display: inline-block;
+    font-size: 12px;
+    color: #000;
+    padding: 10px;
+    width: 100px;
+    border-bottom: 1px solid #000;
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    cursor: pointer;
+}
+
+section .inner main .content .today .bottom .exhiView .exhi .moreBt::after {
+    content: "";
+    padding: 10px;
+    border-top: 1px solid #000;
+    transform: rotate(45deg);
+    position: absolute;
+    bottom: -11.2px;
+    right: 3.5px;
+}
+
+section .inner .content .mNotice {
+    display: none;
+}
+
+
+
+footer {
+    height: 185px;
+    background: #1C1B1B;
+    color: #fff;
+    padding: 57px;
+    border-top: 1px solid #c4c4c4;
+}
+
+footer .inner {
+    width: 1600px;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .inner .left .top {
+    margin-bottom: 20px;
+}
+
+footer .inner .left .top span {
+    cursor: pointer;
+}
+
+footer .inner .left .top span:after {
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    height: 15px;
+    border: 1px solid #fff;
+    margin: 0 32px;
+}
+
+footer .inner .left .top span:last-child::after {
+    display: none;
+}
+
+footer .inner .right {
+    width: 330px;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .inner .right .cmoaLogo {
+    width: 180px;
+    height: 100%;
+    background: url(/image/logo_white.png) 50% 50% no-repeat;
+    display: inline-block;
+}
+
+footer .inner .right .cmoLogo {
+    width: 150px;
+    height: 100%;
+    background: url(/image/chengjuicon.png) 50% 50% no-repeat;
+    display: inline-block;
+}
