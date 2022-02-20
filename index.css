@@ -513,6 +513,7 @@ main .content .mine .message.last:after {
 .sec.contact .left .contactForm input,
 .sec.contact .left .contactForm textarea {
     width: 100%;
+    color: var(--text-color);
     background-color: var(--second-color);
     padding: 15px 20px;
     font-size: 18px;
