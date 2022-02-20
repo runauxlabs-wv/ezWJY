@@ -693,7 +693,7 @@ section .sec.anx .slick-track .slick-slide {
 }
 
 section .sec.anx .content {
-    width: 100%;
+    width: 100vw;
     height: 100%;
 }
 
