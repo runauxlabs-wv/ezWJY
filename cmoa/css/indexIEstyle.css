@@ -56,17 +56,20 @@
 .is-ie section .sec.anx .content .inner .rectangle {
     float: right;
 }
+
 .is-ie section .sec.exhi .ticket .right,
 .is-ie section .sec.exhi .ticket .right .textbox {
     float: left;
 }
- .is-ie section .sec.exhi .swiper-button-next {
+
+.is-ie section .sec.exhi .swiper-button-next {
     width: 60px;
     height: 60px;
     background: url(/portfolio/cmoa/img/arrow_forward_ios_white_48dp.svg) 0% 50% no-repeat;
     background-size: cover;
     top: 160px;
 }
+
 .is-ie section .sec.exhi .swiper-button-prev {
     width: 60px;
     height: 60px;
@@ -74,39 +77,49 @@
     background-size: cover;
     top: 160px;
 }
+
 .is-ie section .sec.exhi .ticket .right .textbox,
 .is-ie section .sec.exhi .ticket .right .barcode {
     height: 340px;
 }
-.is-ie section .sec.exhi .slick-list  {
+
+.is-ie section .sec.exhi .slick-list {
     max-width: 100%;
 }
+
 .is-ie section .sec.exhi .swiper-slide {
     float: left;
     width: 985px;
     /* margin: 0 auto; */
 }
+
 .is-ie section .sec.exhi .slick-slide {
     width: 985px;
     max-width: 985px;
 }
+
 .is-ie section .sec.exhi .ticket .right .textbox .title {
     height: 55%;
 }
+
 .is-ie section .sec.exhi .ticket .right .barcode {
     position: absolute;
     right: 0;
 }
+
 .is-ie section .sec.edu .inner .content .box:hover .textbox .title {
     height: 50%;
 }
+
 .is-ie section .sec.anx .anxSlide {
     height: 1080px;
 }
+
 .is-ie section .sec.anx .slick-list {
     /* width: 1920px; */
     height: 1080px;
 }
+
 .is-ie section .sec.anx .slick-track {
     /* max-width: 1920px; */
     height: 1080px;
@@ -117,9 +130,11 @@
     float: left;
     overflow: hidden;
 }
+
 .is-ie section .sec.anx .content {
     position: relative;
 }
+
 .is-ie section .sec.anx .content::before {
     content: "";
     display: block;
@@ -130,14 +145,17 @@
     left: 0;
     background-color: rgba(0, 0, 0, 0.7);
 }
+
 .is-ie section .sec.anx .content .inner {
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
 }
+
 .is-ie section .sec.sns .inner .content .slide .box .img {
     position: relative;
 }
+
 .is-ie section .sec.sns .inner .content .slide .box .img:before {
     content: "";
     display: block;
@@ -146,155 +164,190 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background:rgba(0, 0, 0, 0.4);
+    background: rgba(0, 0, 0, 0.4);
 }
+
 .is-ie section .sec.sns .inner .content .slide .box .img p {
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
     z-index: 100;
 }
+
 .is-ie footer .inner .right {
     display: block;
     float: right;
 }
 
 @media screen and (max-width:768px) {
-.is-ie body {
-    overflow-y: hidden;
-}
-.is-ie main .content,
-.is-ie main {
-    height: calc(100vh - 100px);
-}
-.is-ie main .gnb {
-    display: block;
-}
-.is-ie main .gnb .logo,
-.is-ie main .gnb.on .navGroup .nav {
-    float: left;
-}
-.is-ie main .gnb:hover .navGroup .nav .depth1,
-.is-ie main .gnb .navGroup .nav {
-    display: none;
-}
-.is-ie main .gnb .navGroup {
-    display: inline;
-    float: none;
-}
-.is-ie main .gnb .navGroup .BtGroup {
-    float: right;
-}
-.is-ie main .gnb.on .navGroup .BtGroup {
-    /* position: absolute; */
-    top: 10px;
-    right: 10px;
-}
-.is-ie main .gnb.on .navGroup .BtGroup a {
-    float: left;
-    line-height: 50px;
-}
-.is-ie main .gnb .navGroup .BtGroup .material-icons {
-    font-size: 0;
-    width: 30px;
-    height: 50px;
-    padding: 0;
-    background: url(/portfolio/cmoa/img/menu_white_48dp.svg) 50% 50% no-repeat;
-    background-size: contain;
-}
-.is-ie main .gnb .navGroup .BtGroup .material-icons.on {
-    background: url(/portfolio/cmoa/img/close_white_48dp.svg) 50% 50% no-repeat;
-    background-size: contain;
-}
-.is-ie main .gnb.on .navGroup .nav {
-    width: calc(100vw - 20px);
-    padding-top: 70px;
-    display: block;
-}
-.is-ie main .on.gnb .navGroup .nav .depth1 {
-    width: 100%;
-}
-.is-ie main .on.gnb .navGroup .nav .depth1 a .fas {
-    float: right;
-}
-.is-ie main .mSecNav {
-    display: block;
-}
-.is-ie main .mSecNav li {
-    width: 19%;
-    display: inline-block;
-    text-align: center;
-}
-.is-ie main .mSecNav li:last-child {
-    margin: 0;
-}
-.is-ie main .content .info {
-    position: absolute;
-    bottom: 0;
-}
-.is-ie main .content .info .top .textbox li {
-    float: none;
-    width: 100%;
-    height: 40px;
-}
-.is-ie main .content .info .top .textbox li>span:first-child {
-    display: inline-block;
-    width: 20%;
-    /* height: 40px; */
-}
-.is-ie main .content .info .top .textbox li>span:last-child {
-    display: inline-block;
-    height: 20%;
-    width: 80%;
-}
-.is-ie main .gnb.on .navGroup .nav .depth1 {
-    display: block;
-}
-.is-ie main .gnb.on {
-    position: relative;
-}
-.is-ie main .gnb.on:before {
-    content: "";
-    display: block;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, 0.8);
-}
-.is-ie main .gnb.on .logo {
-    position: absolute;
-    
-}
-.is-ie main .gnb.on .navGroup .nav {
-    position: absolute;
-}
-.is-ie section .sec.exhi .swiper-button-next,
-.is-ie section .sec.exhi .swiper-button-prev {
-    width: 30px;
-    height: 30px;
-}
-.is-ie section .sec.exhi .swiper-button-next {
-    right: -10px;
-}
-.is-ie section .sec.exhi .swiper-button-prev {
-    left: -10px;
-}
-.is-ie section .sec .slick-dots {
-    left: 0;
-}
-.is-ie section .sec .slick-dots li {
-    float: left;
-    /* margin: 0 8px; */
-}
-.is-ie section .sec.anx .content .inner .textbox .info .text span:last-child {
-    display: inline-block;
-}
-.is-ie footer .inner .right {
-    display: none;
-}
-.is-ie footer .inner .left .top span:last-child {
-    float: left;
-}
+    .is-ie body {
+        overflow-y: hidden;
+    }
+
+    .is-ie main .content,
+    .is-ie main {
+        height: calc(100vh - 100px);
+    }
+
+    .is-ie main .gnb {
+        display: block;
+    }
+
+    .is-ie main .gnb .logo,
+    .is-ie main .gnb.on .navGroup .nav {
+        float: left;
+    }
+
+    .is-ie main .gnb:hover .navGroup .nav .depth1,
+    .is-ie main .gnb .navGroup .nav {
+        display: none;
+    }
+
+    .is-ie main .gnb .navGroup {
+        display: inline;
+        float: none;
+    }
+
+    .is-ie main .gnb .navGroup .BtGroup {
+        float: right;
+    }
+
+    .is-ie main .gnb.on .navGroup .BtGroup {
+        /* position: absolute; */
+        top: 10px;
+        right: 10px;
+    }
+
+    .is-ie main .gnb.on .navGroup .BtGroup a {
+        float: left;
+        line-height: 50px;
+    }
+
+    .is-ie main .gnb .navGroup .BtGroup .material-icons {
+        font-size: 0;
+        width: 30px;
+        height: 50px;
+        padding: 0;
+        background: url(/portfolio/cmoa/img/menu_white_48dp.svg) 50% 50% no-repeat;
+        background-size: contain;
+    }
+
+    .is-ie main .gnb .navGroup .BtGroup .material-icons.on {
+        background: url(/portfolio/cmoa/img/close_white_48dp.svg) 50% 50% no-repeat;
+        background-size: contain;
+    }
+
+    .is-ie main .gnb.on .navGroup .nav {
+        width: calc(100vw - 20px);
+        padding-top: 70px;
+        display: block;
+    }
+
+    .is-ie main .on.gnb .navGroup .nav .depth1 {
+        width: 100%;
+    }
+
+    .is-ie main .on.gnb .navGroup .nav .depth1 a .fas {
+        float: right;
+    }
+
+    .is-ie main .mSecNav {
+        display: block;
+    }
+
+    .is-ie main .mSecNav li {
+        width: 19%;
+        display: inline-block;
+        text-align: center;
+    }
+
+    .is-ie main .mSecNav li:last-child {
+        margin: 0;
+    }
+
+    .is-ie main .content .info {
+        position: absolute;
+        bottom: 0;
+    }
+
+    .is-ie main .content .info .top .textbox li {
+        float: none;
+        width: 100%;
+        height: 40px;
+    }
+
+    .is-ie main .content .info .top .textbox li>span:first-child {
+        display: inline-block;
+        width: 20%;
+        /* height: 40px; */
+    }
+
+    .is-ie main .content .info .top .textbox li>span:last-child {
+        display: inline-block;
+        height: 20%;
+        width: 80%;
+    }
+
+    .is-ie main .gnb.on .navGroup .nav .depth1 {
+        display: block;
+    }
+
+    .is-ie main .gnb.on {
+        position: relative;
+    }
+
+    .is-ie main .gnb.on:before {
+        content: "";
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.8);
+    }
+
+    .is-ie main .gnb.on .logo {
+        position: absolute;
+
+    }
+
+    .is-ie main .gnb.on .navGroup .nav {
+        position: absolute;
+    }
+
+    .is-ie section .sec.exhi .swiper-button-next,
+    .is-ie section .sec.exhi .swiper-button-prev {
+        width: 30px;
+        height: 30px;
+    }
+
+    .is-ie section .sec.exhi .swiper-button-next {
+        right: -10px;
+    }
+
+    .is-ie section .sec.exhi .swiper-button-prev {
+        left: -10px;
+    }
+
+    .is-ie section .sec .slick-dots {
+        left: 0;
+    }
+
+    .is-ie section .sec .slick-dots li {
+        float: left;
+        /* margin: 0 8px; */
+    }
+
+    .is-ie section .sec.anx .content .inner .textbox .info .text span:last-child {
+        display: inline-block;
+    }
+
+    .is-ie footer .inner .right {
+        display: none;
+    }
+
+    .is-ie footer .inner .left .top span:last-child {
+        float: left;
+    }
 }

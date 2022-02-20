@@ -511,7 +511,7 @@ footer .inner .right .cmoLogo {
         width: 100vw;
         min-width: 320px;
         height: 70px;
-        background: url(/image/con_cmoa_mheader.png) 0 0 no-repeat;
+        background: url(/portfolio/cmoa/img/con_cmoa_mheader.png) 0 0 no-repeat;
         background-size: cover;
         background-color: rgba(255, 255, 255, 0.7);
         background-blend-mode: lighten;
@@ -551,7 +551,7 @@ footer .inner .right .cmoLogo {
     }
 
     header.on .inner .logo {
-        background: url(/image/logo_white.png) 50% 50% no-repeat;
+        background: url(/portfolio/cmoa/img/logo_white.png) 50% 50% no-repeat;
         background-size: contain;
 
     }
@@ -574,7 +574,7 @@ footer .inner .right .cmoLogo {
         width: 100vw;
         height: 100vh;
         flex-direction: column;
-        background: url(/image/con_cmoa.png) 0 0 no-repeat;
+        background: url(/portfolio/cmoa/img/con_cmoa.png) 0 0 no-repeat;
         background-size: cover;
         background-color: rgba(0, 0, 0, 0.8);
         background-blend-mode: darken;
