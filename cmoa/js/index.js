@@ -34,7 +34,7 @@ $(document).ready(function () {
     $('.swiper.anxSlide .swiper-wrapper').slick({
         infinite: true,
         dots: true,
-        autoplay: false,
+        autoplay: true,
         autoplaySpeed: 3000,
         variableWidth: true,
         arrows: false

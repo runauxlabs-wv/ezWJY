@@ -7,7 +7,7 @@ body {
 }
 header {
     height: 70px;
-    background: url(/image/con_cmoa_mheader.png) 0 0 no-repeat;
+    background: url(/portfolio/cmoa/img/con_cmoa_mheader.png) 0 0 no-repeat;
     background-size: cover;
     background-color: rgba(0, 0, 0, 0.7);
     background-blend-mode: darken;
@@ -55,7 +55,7 @@ header .gnbwrap.on {
     width: 100vw;
     height: 100vh;
     flex-direction: column;
-    background: url(/image/con_cmoa.png) 0 0 no-repeat;
+    background: url(/portfolio/cmoa/img/con_cmoa.png) 0 0 no-repeat;
     background-size: cover;
     background-color: rgba(0, 0, 0, 0.8);
     background-blend-mode: darken;
