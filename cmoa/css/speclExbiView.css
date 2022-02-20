@@ -82,6 +82,9 @@ header .inner .logo {
     background: url(/portfolio/cmoa/img/logo_black.png) 0% 50% no-repeat;
     display: block;
 }
+header .inner:hover .logo {
+    background: url(/portfolio/cmoa/img/logo_white) 0% 50% no-repeat;
+}
 
 header .inner .navGroup {
     display: flex;
