@@ -699,17 +699,17 @@ section .sec.anx .content {
 
 section .sec.anx .content .inner {
     width: 1200px;
-    height: 700px;
+    height: 500px;
     margin: 0 auto;
     box-sizing: content-box;
-    padding: 190px 0;
+    padding: 210px 0;
     display: flex;
     justify-content: space-between;
 }
 
 section .sec.anx .content .inner .textbox {
     padding: 150px 0 0 0;
-    width: 880px;
+    width: 750px;
     position: relative;
 }
 
