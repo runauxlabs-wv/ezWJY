@@ -698,7 +698,7 @@ section .sec.anx .content {
 }
 
 section .sec.anx .content .inner {
-    width: 1650px;
+    width: 1200px;
     height: 700px;
     margin: 0 auto;
     box-sizing: content-box;
@@ -779,8 +779,8 @@ section .sec.anx .content .inner .textbox .moreBt::after {
 }
 
 section .sec.anx .content .inner .rectangle {
-    width: 700px;
-    height: 700px;
+    width: 500px;
+    height: 500px;
 }
 
 section .sec.anx .content.one {
