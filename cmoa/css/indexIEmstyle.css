@@ -14,15 +14,13 @@
 .is-ie main .gnb.on .navGroup .nav {
     float: left;
 }
-.is-ie main .gnb:hover .navGroup .nav .depth1 {
+.is-ie main .gnb:hover .navGroup .nav .depth1,
+.is-ie main .gnb .navGroup .nav {
     display: none;
 }
 .is-ie main .gnb .navGroup {
     display: inline;
     float: none;
-}
-.is-ie main .gnb .navGroup .nav {
-    display: none;
 }
 .is-ie main .gnb .navGroup .BtGroup {
     float: right;

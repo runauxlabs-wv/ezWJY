@@ -1,10 +1,17 @@
 @charset "utf-8";
 
-.is-ie section .inner aside {
+.is-ie section .inner aside,
+.is-ie section .inner main #tab1.conBox .bottom .textbox h3,
+.is-ie section .inner main #tab1.conBox .bottom .textbox dl,
+.is-ie section .inner main #tab2.conBox .textbox dl,
+.is-ie section .inner main #tab2.conBox .textbox .left,
+.is-ie section .inner main #tab2.conBox .textbox .right,
+.is-ie section .inner main #tab3.conBox .layoutbox .textbox {
     float: left;
 }
 
-.is-ie section .inner main {
+.is-ie section .inner main,
+.is-ie section .inner main #tab3.conBox .layoutbox .layoutimg {
     float: right;
 }
 
@@ -28,25 +35,6 @@
     width: 100%;
     height: 600px;
     background: url(/image/map.JPG) 0 0 no-repeat;
-}
-
-.is-ie section .inner main #tab1.conBox .bottom .textbox h3,
-.is-ie section .inner main #tab1.conBox .bottom .textbox dl {
-    float: left;
-}
-
-.is-ie section .inner main #tab2.conBox .textbox dl,
-.is-ie section .inner main #tab2.conBox .textbox .left,
-.is-ie section .inner main #tab2.conBox .textbox .right {
-    float: left;
-}
-
-.is-ie section .inner main #tab3.conBox .layoutbox .textbox {
-    float: left;
-}
-
-.is-ie section .inner main #tab3.conBox .layoutbox .layoutimg {
-    float: right;
 }
 
 @media screen and (max-width:768px) {
