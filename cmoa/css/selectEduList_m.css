@@ -1,0 +1,334 @@
+@charset "utf-8";
+
+body {
+    min-width: 320px;
+    min-height: 600px;
+    height: 100vh;
+    overflow-x: hidden;
+}
+header {
+    height: 70px;
+    background: url(/image/con_cmoa_mheader.png) 0 0 no-repeat;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.7);
+    background-blend-mode: darken;
+    position: fixed;
+    top: 0;
+    z-index: 100;
+}
+header.on {
+    height: 100vh;
+}
+header .gnbwrap {
+    width: 100vw;
+    height: 70px;
+}
+header .inner {
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    position: relative;
+    left: 0;
+    flex-direction: column;
+}
+header .inner:hover {
+    background: none;
+    left: 0;
+}
+header .inner .logo {
+    width: 100px;
+    height: 50px;
+    background-size: contain;
+    flex-shrink: 0;
+}
+header .inner .navGroup .nav,
+header .inner .navGroup .userBt,
+header .inner .navGroup .searchBt,
+header .inner .navGroup .lang {
+    display: none;
+}
+header .inner .navGroup .BtGroup .mMenuBt {
+    display: block;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+header .gnbwrap.on {
+    width: 100vw;
+    height: 100vh;
+    flex-direction: column;
+    background: url(/image/con_cmoa.png) 0 0 no-repeat;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.8);
+    background-blend-mode: darken;
+    z-index: 300;
+    left: 0;
+    position: fixed;
+}
+header .gnbwrap.on .navGroup {
+    height: calc(100vh - 60px);
+}
+header .gnbwrap.on .navGroup .nav {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding-top: 20px;
+    width: 100%;
+}
+header .gnbwrap.on .navGroup .nav .depth1 {
+    margin: 0;
+}
+header .gnbwrap.on .navGroup .nav .depth1 a {
+    font-size: 18px;
+    padding: 20px 10px 20px 15px;
+    display: flex;
+    justify-content: space-between;
+}
+header .gnbwrap.on .navGroup .nav .depth1 a .fas {
+    font-size: 15px;
+    padding: 5px;
+}
+header .gnbwrap.on .navGroup .nav .depth1 .depth2 {
+    display: none;
+    visibility: visible;
+    margin-top: 0;
+    padding-left: 20px;
+}
+header .gnbwrap.on .navGroup .nav .depth1 .depth2 a {
+    font-size: 13px;
+}
+header .gnbwrap.on .navGroup .userBt,
+header .gnbwrap.on .navGroup .searchBt,
+header .gnbwrap.on .navGroup .lang {
+    display: inline-block;
+    font-size: 12px;
+}
+header .gnbwrap.on .navGroup .BtGroup {
+    position: absolute;
+    top: 15px;
+    right: 20px;
+}
+header .gnbwrap.on .navGroup .BtGroup span {
+    margin-right: 0px;
+}
+header .gnbwrap.on .navGroup .BtGroup .mMenuBt {
+    padding: 0;
+    position: relative;
+    top: 0;
+    right: 0;
+}
+header .gnbwrap.on .navGroup .BtGroup .lang {
+    margin-right: 0;
+    padding: 0 5px;
+}
+header .sns.on {
+    display: inline-block;
+    z-index: 300;
+    padding: 30px;
+    position: fixed;
+    bottom: 0;
+}
+header .sns.on a {
+    font-size: 15px;
+    line-height: 15px;
+    margin-right: 30px;
+    color: #fff;
+}
+header .sns.on a:last-child {
+    margin-right: 0;
+}
+
+section {
+    height: calc(100vh - 100px);
+    overflow-y: scroll;
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+}
+section .inner {
+    width: 80vw;
+    padding-top: 70px;
+}
+section .inner main {
+    width: 100%;
+}
+section .inner main .breadcrumb {
+    padding: 10px;
+}
+section .inner main .breadcrumb li a {
+    font-size: 8px;
+}
+section .inner main .breadcrumb li+li:after {
+    font-size: 8px;
+}
+section .inner main .nav {
+    margin: 10px 0 25px 0;
+    padding: 0;
+    scrollbar-width: 1px; 
+    border-top: 1px solid #878787;
+}
+section .inner main .nav li {
+    flex-shrink: 0;
+    margin-right: 10px;
+}
+section .inner main .nav li a {
+    font-size: 10px;
+}
+section .inner main .content {
+    padding-top: 10px;
+}
+section .inner main .content .monthly {
+    display: none;
+}
+section .inner main .content .today {
+    width: 100%;
+    height: 450px;
+    padding: 20px;
+    margin-bottom: 10px;
+    position: relative;
+}
+section .inner main .content .today h3 {
+    font-size: 15px;
+    height: 70px;
+    line-height: 70px;
+}
+section .inner main .content .today .bottom {
+    flex-direction: column;
+    padding-top: 20px;
+}
+section .inner main .content .today .bottom .day {
+    width: 70px;
+    height: 70px;
+    padding: 5px;
+    border-radius: 8px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+section .inner main .content .today .bottom .day span {
+    font-size: 10px;
+}
+section .inner main .content .today .bottom .day span:nth-child(2) {
+    font-size: 18px;
+    margin: 0;
+}
+section .inner main .content .today .bottom .exhiScroll {
+    height: 300px;
+}
+section .inner main .content .today .bottom .exhiScroll .slick-list {
+    min-height: 300px;
+}
+section .inner main .content .today .bottom .exhiScroll .slick-track {
+    max-width: 216px;
+    /* max-height: 300px; */
+}
+section .inner main .content .today .bottom .exhiScroll .swiper-slide {
+    width: 216px;
+}
+section .inner main .content .today .bottom .exhiScroll .exhilist {
+    width: 100%;
+    height: 60px;
+    margin-bottom: 20px;
+}
+section .inner main .content .today .bottom .exhiScroll .exhilist .cg {
+    font-size: 11px;
+    line-height: 60px;
+    flex-shrink: 0;
+    max-width: 40px;
+}
+section .inner main .content .today .bottom .exhiScroll .exhilist .cg::after {
+    width: 1px;
+}
+section .inner main .content .today .bottom .exhiScroll .exhilist .right {
+    width: calc(100% - 40px);
+    padding: 10px;
+}
+section .inner main .content .today .bottom .exhiScroll .exhilist .right .ag {
+    font-size: 10px;
+}
+section .inner main .content .today .bottom .exhiScroll .exhilist .right .title {
+    font-size: 11px;
+}
+section .inner main .content .today .bottom .todayExhiList .scrollBt {
+    top: 320px;
+    --swiper-navigation-size: 10px;
+}
+section .inner main .content .today .bottom .exhiView.on {
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 10;
+}
+section .inner main .content .today .bottom .exhiView .exhi {
+    width: 100%;
+    height: 100%;
+}
+section .inner main .content .today .bottom .exhiView .exhi .img {
+    width: 200px;
+    height: 200px;
+    margin: 0 auto 30px auto;
+}
+section .inner main .content .today .bottom .exhiView .exhi p {
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+section .inner main .content .today .bottom .exhiView .exhi .info li {
+    font-size: 10px;
+}
+section .inner main .content .today .bottom .exhiView .exhi .info li span:first-child {
+    width: 50px;
+}
+section .inner main .content .today .bottom .exhiView .exhi .info li span:first-child::after {
+    top: 4px;
+}
+section .inner main .content .today .bottom .exhiView .exhi .info li span:last-child {
+    padding: 0 0 0 10px;
+}
+section .inner main .content .today .bottom .exhiView .exhi .moreBt {
+    font-size: 8px;
+    padding: 5px;
+    width: 60px;
+    top: 410px;
+    left: 180px;
+    cursor: pointer;
+}
+section .inner main .content .today .bottom .exhiView .exhi .moreBt::after {
+    padding: 5px;
+    bottom: -6.2px;
+    right: 3.5px;
+}
+section .inner .content .mNotice {
+    display: inline-block;
+    font-size: 10px;
+    margin-bottom: 30px;
+}
+
+
+
+
+footer {
+    height: 100px;
+    padding: 10px;
+}
+
+footer .inner {
+    width: 100%;
+    height: 100px;
+}
+
+footer .inner .left .top {
+    margin-bottom: 10px;
+}
+
+footer .inner .left .top span,
+footer .inner .left p {
+    font-size: 10px;
+}
+
+footer .inner .right {
+    display: none;
+}

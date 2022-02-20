@@ -1,0 +1,92 @@
+@charset "utf-8";
+
+.is-ie .clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.is-ie header .gnbwrap::before {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.7);
+}
+.is-ie header .inner .logo {
+    float: left;
+}
+.is-ie header .inner .navGroup {
+    display: block;
+    float: right;
+}
+.is-ie header .inner .navGroup .nav {
+    display: block;
+    float: left;
+}
+.is-ie header .inner .navGroup .nav .depth1 {
+    float: left;
+}
+.is-ie header .inner .navGroup .BtGroup {
+    display: block;
+    float: right;
+} 
+.is-ie header .inner .navGroup .BtGroup a {
+    float: left;
+}
+.is-ie section .inner aside {
+    float: left;
+}
+.is-ie section .inner main {
+    float: right;
+}
+.is-ie section .inner main .filter-tabs {
+    height: auto;
+    display: block;
+}
+.is-ie section .inner main .filter-tabs li {
+    height: 60px;
+    float: left;
+}
+.is-ie section .inner main .filter-tabs li a {
+    height: 100%;
+    display: inline-block;
+}
+.is-ie section .inner main .conBox .box .textbox ul li > span:first-child {
+    float: left;
+}
+.is-ie section .inner main .conBox .box .textbox ul li span:last-child {
+    display: inline-block;
+}
+.is-ie section .inner main .conBox .box .textbox .title {
+    height: 60%;
+}
+.is-ie footer .inner .left {
+    float: left;
+}
+.is-ie footer .inner .right {
+    width: 340px;
+    float: right;
+}
+
+
+@media screen and (max-width:768px){
+    .is-ie header .gnbwrap {
+        width: calc(100vw - 15px);
+    }
+    .is-ie header:hover .inner .navGroup .nav {
+        display: none;
+    }
+    .is-ie section .inner main .filter-tabs {
+        height: 35px;
+        overflow: auto;
+        white-space: nowrap;
+    }
+    .is-ie section .inner main .filter-tabs li {
+        height: 35px;
+        float: none;
+        display: inline-block;
+    }
+}
