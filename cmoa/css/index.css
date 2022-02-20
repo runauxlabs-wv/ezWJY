@@ -48,7 +48,7 @@ main {
     width: 100vw;
     max-width: 100%;
     height: 1080px;
-    background: url(/image/con_cmoa.png) 0 0 no-repeat;
+    background: url(/portfolio/cmoa/image/con_cmoa.png) 0 0 no-repeat;
     background-size: cover;
     background-color: rgba(0, 0, 0, 0.7);
     background-blend-mode: darken;
@@ -90,7 +90,7 @@ main .gnb:hover .navGroup .nav .depth1 .depth2 {
 main .gnb .logo {
     width: 169px;
     height: 60px;
-    background: url(/image/logo_white.png);
+    background: url(/portfolio/cmoa/image/logo_white.png);
     background-position: 50% 50%;
     background-repeat: no-repeat;
 }
@@ -375,7 +375,7 @@ section .sec.exhi .slick-slider {
 section .sec.exhi .ticket {
     width: 985px;
     height: 400px;
-    background: url(/image/textrue_paper.png) 0 0 no-repeat;
+    background: url(/portfolio/cmoa/e/textrue_paper.png) 0 0 no-repeat;
     background-size: cover;
     padding: 30px;
     display: flex;
@@ -402,42 +402,42 @@ section .sec.exhi .ticket .poster .moreBt {
 }
 
 section .sec.exhi .swiper-slide.s01 .ticket .poster .img {
-    background: url(/image/exhi_pres_cmoa_right.jpg) 50% 50% no-repeat;
+    background: url(/portfolio/cmoa/img/exhi_pres_cmoa_right.jpg) 50% 50% no-repeat;
     background-size: cover;
 }
 
 section .sec.exhi .swiper-slide.s02 .ticket .poster .img {
-    background: url(/image/exhi_pres_dae_time.jpg) 50% 50% no-repeat;
+    background: url(/portfolio/cmoa/img/exhi_pres_dae_time.jpg) 50% 50% no-repeat;
     background-size: cover;
 }
 
 section .sec.exhi .swiper-slide.s03 .ticket .poster .img {
-    background: url(/image/exhi_pres_dae_envi.jpg) 50% 50% no-repeat;
+    background: url(/portfolio/cmoa/img/exhi_pres_dae_envi.jpg) 50% 50% no-repeat;
     background-size: cover;
 }
 
 section .sec.exhi .swiper-slide.s04 .ticket .poster .img {
-    background: url(/image/exhi_pres_ocha_lee.jpg) 50% 50% no-repeat;
+    background: url(/portfolio/cmoa/e/exhi_pres_ocha_lee.jpg) 50% 50% no-repeat;
     background-size: cover;
 }
 
 section .sec.exhi .swiper-slide.s05 .ticket .poster .img {
-    background: url(/image/exhi_pres_stu_chaos.jpg) 50% 50% no-repeat;
+    background: url(/portfolio/cmoa/e/exhi_pres_stu_chaos.jpg) 50% 50% no-repeat;
     background-size: cover;
 }
 
 section .sec.exhi .swiper-slide.s06 .ticket .poster .img {
-    background: url(/image/exhi_pres_stu_dancing.jpg) 50% 50% no-repeat;
+    background: url(/portfolio/cmoa/e/exhi_pres_stu_dancing.jpg) 50% 50% no-repeat;
     background-size: cover;
 }
 
 section .sec.exhi .swiper-slide.s07 .ticket .poster .img {
-    background: url(/image/exhi_pres_cmoa_jang.jpg) 50% 50% no-repeat;
+    background: url(/portfolio/cmoa/e/exhi_pres_cmoa_jang.jpg) 50% 50% no-repeat;
     background-size: cover;
 }
 
 section .sec.exhi .swiper-slide.s08 .ticket .poster .img {
-    background: url(/image/exhi_pres_ocha_ar.png) 50% 50% no-repeat;
+    background: url(/portfolio/cmoa/e/exhi_pres_ocha_ar.png) 50% 50% no-repeat;
     background-size: cover;
 }
 
@@ -501,7 +501,7 @@ section .sec.exhi .ticket .right .barcode p {
 section .sec.exhi .ticket .right .barcodeimg {
     width: 75px;
     height: 340px;
-    background: url(/image/barcode.png) 0 0 no-repeat;
+    background: url(/portfolio/cmoa/e/barcode.png) 0 0 no-repeat;
     position: absolute;
     bottom: 0px;
 }
@@ -627,12 +627,12 @@ section .sec.edu .inner .content .box .img {
     left: 30px;
     z-index: 999;
     box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.4);
-    background: url(/image/edu_class.jpg) 0 0 no-repeat;
+    background: url(/portfolio/cmoa/e/edu_class.jpg) 0 0 no-repeat;
     background-size: cover;
 }
 
 section .sec.edu .inner .content .box.one .img {
-    background: url(/image/edu_choi.jpg) 0 0 no-repeat;
+    background: url(/portfolio/cmoa/e/edu_choi.jpg) 0 0 no-repeat;
     background-size: cover;
 }
 
@@ -783,38 +783,38 @@ section .sec.anx .content .inner .rectangle {
 }
 
 section .sec.anx .content.one {
-    background: url(/image/con_dae.jpg) 0 50% no-repeat;
+    background: url(/portfolio/cmoa/e/con_dae.jpg) 0 50% no-repeat;
     background-size: cover;
     background-color: rgba(0, 0, 0, 0.8);
     background-blend-mode: darken;
 }
 
 section .sec.anx .content.one .inner .rectangle {
-    background: url(/image/con_dae.jpg) 50% 0 no-repeat;
+    background: url(/portfolio/cmoa/e/con_dae.jpg) 50% 0 no-repeat;
     background-size: cover;
 }
 
 section .sec.anx .content.two {
-    background: url(/image/con_stu.jpg) 0 50% no-repeat;
+    background: url(/portfolio/cmoa/e/con_stu.jpg) 0 50% no-repeat;
     background-size: cover;
     background-color: rgba(0, 0, 0, 0.8);
     background-blend-mode: darken;
 }
 
 section .sec.anx .content.two .inner .rectangle {
-    background: url(/image/con_stu.jpg) 50% 0 no-repeat;
+    background: url(/portfolio/cmoa/e/con_stu.jpg) 50% 0 no-repeat;
     background-size: cover;
 }
 
 section .sec.anx .content.three {
-    background: url(/image/con_ocha.jpg) 0 50% no-repeat;
+    background: url(/portfolio/cmoa/e/con_ocha.jpg) 0 50% no-repeat;
     background-size: cover;
     background-color: rgba(0, 0, 0, 0.8);
     background-blend-mode: darken;
 }
 
 section .sec.anx .content.three .inner .rectangle {
-    background: url(/image/con_ocha.jpg) 50% 0 no-repeat;
+    background: url(/portfolio/cmoa/e/con_ocha.jpg) 50% 0 no-repeat;
     background-size: cover;
 }
 
@@ -914,35 +914,35 @@ section .sec.sns .inner .content .slide .box .textbox p:last-child {
 }
 
 section .sec.sns .inner .content .slide .box.one .img {
-    background: url(/image/sns_ins.jpg) 0 0 no-repeat;
+    background: url(/portfolio/cmoa/e/sns_ins.jpg) 0 0 no-repeat;
     background-size: cover;
     background-color: rgba(0, 0, 0, 0.4);
     background-blend-mode: darken;
 }
 
 section .sec.sns .inner .content .slide .box.two .img {
-    background: url(/image/sns_yt.jpg) 0 0 no-repeat;
+    background: url(/portfolio/cmoa/e/sns_yt.jpg) 0 0 no-repeat;
     background-size: cover;
     background-color: rgba(0, 0, 0, 0.4);
     background-blend-mode: darken;
 }
 
 section .sec.sns .inner .content .slide .box.three .img {
-    background: url(/image/sns_fb_color.jpg) 0 25% no-repeat;
+    background: url(/portfolio/cmoa/e/sns_fb_color.jpg) 0 25% no-repeat;
     background-size: cover;
     background-color: rgba(0, 0, 0, 0.4);
     background-blend-mode: darken;
 }
 
 section .sec.sns .inner .content .slide .box.four .img {
-    background: url(/image/sns_fb_rev.jpg) 0 25% no-repeat;
+    background: url(/portfolio/cmoa/e/sns_fb_rev.jpg) 0 25% no-repeat;
     background-size: cover;
     background-color: rgba(0, 0, 0, 0.4);
     background-blend-mode: darken;
 }
 
 section .sec.sns .inner .content .slide .box.five .img {
-    background: url(/image/sns_fb_ar.jpg) 0 25% no-repeat;
+    background: url(/portfolio/cmoa/e/sns_fb_ar.jpg) 0 25% no-repeat;
     background-size: cover;
     background-color: rgba(0, 0, 0, 0.4);
     background-blend-mode: darken;
@@ -1011,13 +1011,13 @@ footer .inner .right {
 footer .inner .right .cmoaLogo {
     width: 180px;
     height: 100%;
-    background: url(/image/logo_white.png) 50% 50% no-repeat;
+    background: url(/portfolio/cmoa/e/logo_white.png) 50% 50% no-repeat;
     display: inline-block;
 }
 
 footer .inner .right .cmoLogo {
     width: 150px;
     height: 100%;
-    background: url(/image/chengjuicon.png) 50% 50% no-repeat;
+    background: url(/portfolio/cmoa/e/chengjuicon.png) 50% 50% no-repeat;
     display: inline-block;
 }
