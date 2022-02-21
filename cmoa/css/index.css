@@ -659,10 +659,6 @@ section .sec.edu .inner .content .box .textbox .title {
     flex-shrink: 0;
 }
 
-section .sec.edu .inner .content .box:first-child .textbox .title {
-    /* margin-bottom: 90px; */
-}
-
 section .sec.edu .inner .content .box .textbox .info {
     flex-shrink: 0;
     display: none;
