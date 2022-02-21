@@ -568,10 +568,11 @@ main .content .mine .message.last:after {
     content: "Main section3.";
 }
 
-.sec.project .contents .pj.one .imgs .screenshot:hover::before {
+.sec.project .contents .pj .imgs .screenshot:hover::before {
     content: none;
+    display: none;
 }
-.sec.project .contents .pj.one .imgs .screenshot::before {
+.sec.project .contents .pj .imgs .screenshot::before {
     display: inline-block;
     width: 100%;
     height: 100%;
