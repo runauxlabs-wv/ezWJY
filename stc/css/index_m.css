@@ -21,7 +21,7 @@ body {
 .header-wrap .gnb .logo {
     width: 135px;
     height: 40px;
-    background-position: center;
+    background: url(/portfolio/stc/img/logo_white.png) 50% 0 no-repeat;
     background-size: contain;
 }
 .header-wrap .gnb .navGroup .nav {
