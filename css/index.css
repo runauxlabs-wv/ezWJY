@@ -475,18 +475,23 @@ main .content .mine .message.last:after {
 
 .sec.project .contents .pj .imgs .screenshot:nth-child(1) {
     background: url(/portfolio/img/cmoa_main.png) no-repeat center;
+    background-size: cover;
 }
 .sec.project .contents .pj .imgs .screenshot:nth-child(2) {
     background: url(/portfolio/img/cmoa_sub1.png) no-repeat center;
+    background-size: cover;
 }
 .sec.project .contents .pj .imgs .screenshot:nth-child(3) {
     background: url(/portfolio/img/cmoa_main.png) no-repeat center;
+    background-size: cover;
 }
 .sec.project .contents .pj .imgs .screenshot:nth-child(4) {
     background: url(/portfolio/img/cmoa_main.png) no-repeat center;
+    background-size: cover;
 }
 .sec.project .contents .pj .imgs .screenshot:nth-child(5) {
     background: url(/portfolio/img/cmoa_main.png) no-repeat center;
+    background-size: cover;
 }
 
 .sec.project .contents .pj.two .detail .right .attr.color li:nth-child(1) {
