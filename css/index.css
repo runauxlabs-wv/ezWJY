@@ -16,6 +16,7 @@
 :root {
     --text-color: rgb(0, 0, 0);
     --bg-color: rgb(255, 255, 255);
+    --bg-rgba: rgba(255, 255, 255, 0.6);
     --second-color: #F5F5F5;
     --second-text-color: #858585;
 }
@@ -23,6 +24,7 @@
 [data-theme="dark"] {
     --text-color: rgb(255, 255, 255);
     --bg-color: rgb(0, 0, 0);
+    --bg-rgba: rgba(0, 0, 0, 0.6);
     --second-color: #262626;
     --second-text-color: #858585;
 }
@@ -459,7 +461,7 @@ main .content .mine .message.last:after {
     height: 100%;
     font-size: 25px;
     color: var(--text-color);
-    background-color: rgba(255, 255, 255, 0.6);
+    background-color: var(--bg-rgba);
     line-height: 223px;
 }
 .sec.project .contents .pj .imgs .screenshot:hover div {
