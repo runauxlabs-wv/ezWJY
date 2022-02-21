@@ -541,6 +541,7 @@ main .content .mine .message.last:after {
 .sec.contact .left #contactForm .btGroup input {
     width: 20%;
     height: 40px;
+    padding: 0;
     display: inline-block;
     font-size: 18px;
     background-color: #006adb;
