@@ -454,26 +454,19 @@ main .content .mine .message.last:after {
     position: relative;
 }
 .sec.project .contents .pj .imgs .screenshot div {
-    font-size: 25px;
-    color: var(--text-color);
-    line-height: 223px;
-}
-.sec.project .contents .pj .imgs .screenshot:hover {
-    background-color: rgba(var(--bg-color), 0);
-}
-.sec.project .contents .pj .imgs .screenshot:hover div {
-    visibility: hidden;
-}
-.sec.project .contents .pj .imgs .screenshot::before {
-    display: inline-block;
-    content: "";
-    width: 100%;
-    height: 100%;
     position: absolute;
     top: 0;
     left: 0;
+    width: 100%;
+    height: 100%;
+    font-size: 25px;
+    color: var(--text-color);
+    background-color: rgba(255, 255, 255, 0.6);
+    line-height: 223px;
 }
-
+.sec.project .contents .pj .imgs .screenshot:hover div {
+    background-color: rgba(var(--bg-color), 0);
+}
 .sec.project .contents .pj .imgs .top,
 .sec.project .contents .pj .imgs .bottom {
     text-align: center;
@@ -496,7 +489,7 @@ main .content .mine .message.last:after {
     background-color: #20344A;
 }
 
-.sec.project .contents .pj.one .imgs .top .screenshot:nth-child(1)::before {
+.sec.project .contents .pj.one .imgs .top .screenshot:nth-child(1) {
     background: url(/portfolio/img/cmoa_main.png) no-repeat center;
     background-size: cover;
 }
