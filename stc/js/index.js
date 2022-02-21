@@ -483,10 +483,15 @@ function createChart() {
                     }
                 },
                 scales: {
-                    yAxes: [{
-                        ticks: {
-                            fontSize: 9
+                    xAxes: [{
+                        gridLines: {
+                            display:false
                         }
+                    }],
+                    yAxes: [{
+                        gridLines: {
+                            display:false
+                        }   
                     }]
                 }
             }
