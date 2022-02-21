@@ -417,30 +417,38 @@ main .content .mine .message.last:after {
 }
 
 .sec.project .contents .pj .detail .right .goTo {
-    width: 50px;
+    width: 60px;
     position: absolute;
     right: 0px;
     bottom: 0px;
-}
-
-.sec.project .contents .pj .detail .goTo img {
-    width: 50px;
-    height: 50px;
-    background: #fff;
-}
-
-.sec.project .contents .pj .detail .goTo a {
-    font-size: 20px;
-    color: var(--text-color);
-    float: left;
-    line-height: 40px;
-    margin-right: 10px;
-    width: 50px;
     text-align: center;
 }
 
+.sec.project .contents .pj .detail .goTo img {
+    width: 55px;
+    height: 55px;
+    background: #fff;
+    display: inline-block;
+}
+
+.sec.project .contents .pj .detail .goTo a {
+    font-size: 18px;
+    color: var(--text-color);
+    display: inline-block;
+    line-height: 30px;
+    margin-bottom: 10px;
+    width: 55px;
+    height: 30px;
+    text-align: center;
+    border-radius: 8px;
+    background: #fff;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+}
+
 .sec.project .contents .pj .detail .goTo a:hover {
-    border-bottom: 1px solid var(--text-color);
+    box-shadow: -2px -2px 2px rgb(211, 211, 211);
+    /* background: #006adb; */
+    /* color: #fff; */
 }
 
 .sec.project .contents .pj .imgs .screenshot {
@@ -461,10 +469,6 @@ main .content .mine .message.last:after {
     color: #fff;
     background-color: rgba(0, 0, 0, 0.4);
     line-height: 223px;
-}
-.sec.project .contents .pj.two .imgs .screenshot div {
-    /* color: #000; */
-    /* background-color: rgba(255, 255, 255, 0.6); */
 }
 .sec.project .contents .pj .imgs .screenshot:hover div {
     background-color: rgba(var(--bg-color), 0);
