@@ -33,7 +33,6 @@ $(document).ready(function () {
       setTimeout(typeWriter1, speed);
     }
   }
-
   function typeWriter2() {
     if (j < txt2.length) {
       $last.innerHTML += txt2.charAt(j);
@@ -42,13 +41,22 @@ $(document).ready(function () {
     }
   }
 
-  setInterval(function () {
-    typeWriter1()
-  }, 100);
-
-  setInterval(function () {
-    typeWriter2()
-  }, 1000);
+  function interval() {
+    setInterval(typeWriter1, 100);
+    setInterval(typeWriter2, 1000);
+  }
+  var intervalID = setInterval(interval(), 100);
+  // function interval() {
+  //   setInterval(function () {
+  //     typeWriter1()
+  //   }, 100);
+  //   setInterval(function () {
+  //     typeWriter2()
+  //   }, 1000);
+  // }
+  // setInterval(function() {
+  //   interval()
+  // }, 1200);
 
   //dark-light mode
   const rootDataset = document.documentElement.dataset;
