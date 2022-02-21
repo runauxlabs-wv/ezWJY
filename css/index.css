@@ -43,7 +43,6 @@ body {
     line-height: 60px;
     padding-right: 60px;
     display: inline-block;
-    border-bottom: 2px solid #006adb;
     font-style: italic;
 }
 
@@ -399,22 +398,22 @@ main .content .mine .message.last:after {
 }
 
 .sec.project .contents .pj .detail .right .attr.browser li:nth-child(1) {
-    background: url(img/chrome.svg);
+    background: url(/portfolio/img/chrome.svg);
     background-size: cover;
 }
 
 .sec.project .contents .pj .detail .right .attr.browser li:nth-child(2) {
-    background: url(img/firefox.svg);
+    background: url(/portfolio/img/firefox.svg);
     background-size: cover;
 }
 
 .sec.project .contents .pj .detail .right .attr.browser li:nth-child(3) {
-    background: url(img/edge.svg);
+    background: url(/portfolio/img/edge.svg);
     background-size: cover;
 }
 
 .sec.project .contents .pj .detail .right .attr.browser li:nth-child(4) {
-    background: url(img/ie.svg);
+    background: url(/portfolio/img/ie.svg);
     background-size: cover;
 }
 
