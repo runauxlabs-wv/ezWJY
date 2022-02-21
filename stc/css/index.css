@@ -514,7 +514,7 @@ a {
     color: var(--theme-color);
     text-align: center;
     position: relative;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 .sec.dashboard .inner .content .right .percentage.down {
     color: #3673ff;
