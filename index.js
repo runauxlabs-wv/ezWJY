@@ -82,6 +82,23 @@ function progressAnimate() {
       }
     });
   });
+
+  //send email
+  document.querySelector('#contactForm').addEventListener('submit', function(event) {
+    event.preventDefault(); // submit이벤트 막기
+    var fromName = document.querySelector('input.name').value; // 전송자 이름 추출
+    var sendSuccess = '메일 전송에 성공했습니다.';
+    var sendFail = '메일 전송에 실패했습니다.';
+
+    emailjs.init("user_OOabrlvn0eA9WUFUxhkZB"); // API keys
+    emailjs.sendForm('service_6wd074u', 'template_pyyeeab', this)
+        .then(function() {
+            alert(sendSuccess);
+        }, function(error) {
+            alert(sendFail);
+            console.log('전송실패', error);
+        });
+});
 }
 
 //trigger animation when the user scrolls to info section
