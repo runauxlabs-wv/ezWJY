@@ -537,7 +537,7 @@ main .content .mine .message.last:after {
     background: none;
 }
 .sec.project .contents .pj .imgs .screenshot:hover div {
-    display: none;
+    visibility: hidden;
 }
 .sec.project .contents .pj .imgs .screenshot::after {
     display: inline-block;
