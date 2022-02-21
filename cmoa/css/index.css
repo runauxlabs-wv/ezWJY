@@ -58,6 +58,8 @@ main {
 main .inner {
     width: 90vw;
     max-width: 100%;
+    height: 100vh;
+    min-height: 1000px;
     position: relative;
 }
 
@@ -189,7 +191,7 @@ main .mSecNav {
 
 main .content {
     width: 1360px;
-    height: auto;
+    height: 100%;
     position: relative;
     margin: 0 auto;
     padding-top: 150px;
@@ -709,7 +711,7 @@ section .sec.anx .content .inner {
 
 section .sec.anx .content .inner .textbox {
     padding: 150px 0 0 0;
-    width: 750px;
+    width: 700px;
     height: 600px;
     position: relative;
 }
