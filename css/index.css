@@ -448,6 +448,7 @@ main .content .mine .message.last:after {
     width: 380px;
     height: 223px;
     background-color: rgba(var(--bg-color), 0.6);
+    background-blend-mode: normal;
     margin-right: 25px;
     box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.3);
     position: relative;
@@ -480,23 +481,23 @@ main .content .mine .message.last:after {
     background-color: #20344A;
 }
 
-.sec.project .contents .pj.one .imgs .top .screenshot:nth-child(1)::after {
+.sec.project .contents .pj.one .imgs .top .screenshot:nth-child(1)::before {
     background: url(/portfolio/img/cmoa_main.png) no-repeat center;
     background-size: cover;
 }
-.sec.project .contents .pj.one .imgs .top .screenshot:nth-child(2)::after {
+.sec.project .contents .pj.one .imgs .top .screenshot:nth-child(2)::before {
     background: url(/portfolio/img/cmoa_sub1.png) no-repeat center;
     background-size: cover;
 }
-.sec.project .contents .pj.one .imgs .top .screenshot:nth-child(3)::after {
+.sec.project .contents .pj.one .imgs .top .screenshot:nth-child(3)::before {
     background: url(/portfolio/img/cmoa_sub1-1.png) no-repeat center;
     background-size: cover;
 }
-.sec.project .contents .pj.one .imgs .bottom .screenshot:nth-child(1)::after {
+.sec.project .contents .pj.one .imgs .bottom .screenshot:nth-child(1)::before {
     background: url(/portfolio/img/cmoa_sub2.png) no-repeat center;
     background-size: cover;
 }
-.sec.project .contents .pj.one .imgs .bottom .screenshot:nth-child(2)::after {
+.sec.project .contents .pj.one .imgs .bottom .screenshot:nth-child(2)::before {
     background: url(/portfolio/img/cmoa_sub3.png) no-repeat center;
     background-size: cover;
     position: relative;
@@ -513,23 +514,23 @@ main .content .mine .message.last:after {
     background-color: #EAEAEA;
 }
 
-.sec.project .contents .pj.two .imgs .top .screenshot:nth-child(1)::after {
+.sec.project .contents .pj.two .imgs .top .screenshot:nth-child(1)::before {
     background: url(/portfolio/img/stc_main.png) no-repeat center;
     background-size: cover;
 }
-.sec.project .contents .pj.two .imgs .top .screenshot:nth-child(2)::after {
+.sec.project .contents .pj.two .imgs .top .screenshot:nth-child(2)::before {
     background: url(/portfolio/img/stc_sec1.png) no-repeat center;
     background-size: cover;
 }
-.sec.project .contents .pj.two .imgs .top .screenshot:nth-child(3)::after {
+.sec.project .contents .pj.two .imgs .top .screenshot:nth-child(3)::before {
     background: url(/portfolio/img/stc_sec2.png) no-repeat center;
     background-size: cover;
 }
-.sec.project .contents .pj.two .imgs .bottom .screenshot:nth-child(1)::after {
+.sec.project .contents .pj.two .imgs .bottom .screenshot:nth-child(1)::before {
     background: url(/portfolio/img/stc_sec3-1.png) no-repeat center;
     background-size: cover;
 }
-.sec.project .contents .pj.two .imgs .bottom .screenshot:nth-child(2)::after {
+.sec.project .contents .pj.two .imgs .bottom .screenshot:nth-child(2)::before {
     background: url(/portfolio/img/stc_sec3-2.png) no-repeat center;
     background-size: cover;
 }
