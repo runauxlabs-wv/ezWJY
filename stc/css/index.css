@@ -133,6 +133,7 @@ a {
     max-height: 1920px;
     height: 100vh;
     min-height: 1080px;
+    max-height: 1100px;
 }
 .swiper-wrapper .swiper-slide:nth-child(1) {
     background: url(/portfolio/stc/img/main_slide1.jpg) 0 0 no-repeat;
@@ -550,6 +551,7 @@ a {
     background-color: rgba(0, 0, 0, 0.6);
     background-blend-mode: darken;
     position: relative;
+    max-height: 1100px;
 }
 .sec.donate .inner {
     height: 580px;

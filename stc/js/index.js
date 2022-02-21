@@ -27,6 +27,7 @@ $(document).ready(function () {
     }
 //main swiper
 var swiper = new Swiper(".mainSlide", {
+    Infinity: true,
     spaceBetween: 30,
     effect: "fade",
     pagination: {
