@@ -84,7 +84,7 @@ function progressAnimate() {
   });
 
   //send email
-  document.querySelector('#contactForm').addEventListener('submit', function(event) {
+  document.querySelector('.contactForm').addEventListener('submit', function(event) {
     event.preventDefault(); // submit이벤트 막기
     var fromName = document.querySelector('input.name').value; // 전송자 이름 추출
     var sendSuccess = '메일 전송에 성공했습니다.';
