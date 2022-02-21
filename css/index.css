@@ -450,6 +450,7 @@ main .content .mine .message.last:after {
     background-color: rgba(var(--bg-color), 0.6);
     margin-right: 25px;
     box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.3);
+    position: relative;
 }
 .sec.project .contents .pj .imgs .screenshot div {
     font-size: 25px;
