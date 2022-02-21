@@ -15,14 +15,14 @@
 
 :root {
     --text-color: rgb(0, 0, 0);
-    --bg-color: #fff;
+    --bg-color: rgb(255, 255, 255);
     --second-color: #F5F5F5;
     --second-text-color: #858585;
 }
 
 [data-theme="dark"] {
     --text-color: rgb(255, 255, 255);
-    --bg-color: #000;
+    --bg-color: rgb(0, 0, 0);
     --second-color: #262626;
     --second-text-color: #858585;
 }
@@ -457,6 +457,18 @@ main .content .mine .message.last:after {
     text-align: center;
     margin-bottom: 30px;
 }
+.sec.project .contents .pj.one .imgs .top .screenshot::before {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    font-size: 22px;
+    line-height: 223px;
+    color: var(--text-color);
+    background: rgba(var(--bg-color), 0.6);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
 
 .sec.project .contents .pj .imgs>div .screenshot:last-child {
     margin-right: 0;
@@ -477,22 +489,38 @@ main .content .mine .message.last:after {
 .sec.project .contents .pj.one .imgs .top .screenshot:nth-child(1) {
     background: url(/portfolio/img/cmoa_main.png) no-repeat center;
     background-size: cover;
+    position: relative;
+}
+.sec.project .contents .pj.one .imgs .top .screenshot:nth-child(1)::before {
+    content: "Main";
 }
 .sec.project .contents .pj.one .imgs .top .screenshot:nth-child(2) {
     background: url(/portfolio/img/cmoa_sub1.png) no-repeat center;
     background-size: cover;
 }
+.sec.project .contents .pj.one .imgs .top .screenshot:nth-child(2)::before {
+    content: "Sub1. 현재 전시"
+}
 .sec.project .contents .pj.one .imgs .top .screenshot:nth-child(3) {
     background: url(/portfolio/img/cmoa_sub1-1.png) no-repeat center;
     background-size: cover;
+}
+.sec.project .contents .pj.one .imgs .top .screenshot:nth-child(3)::before {
+    content: "Sub1-1. 전시 상세"
 }
 .sec.project .contents .pj.one .imgs .bottom .screenshot:nth-child(1) {
     background: url(/portfolio/img/cmoa_sub2.png) no-repeat center;
     background-size: cover;
 }
+.sec.project .contents .pj.one .imgs .bottom .screenshot:nth-child(1)::before {
+    content: "Sub2. 방문"
+}
 .sec.project .contents .pj.one .imgs .bottom .screenshot:nth-child(2) {
     background: url(/portfolio/img/cmoa_sub3.png) no-repeat center;
     background-size: cover;
+}
+.sec.project .contents .pj.one .imgs .bottom .screenshot:nth-child(2)::before {
+    content: "Sub3. 교육/행사"
 }
 
 .sec.project .contents .pj.two .detail .right .attr.color li:nth-child(1) {
@@ -511,21 +539,36 @@ main .content .mine .message.last:after {
     background: url(/portfolio/img/stc_main.png) no-repeat center;
     background-size: cover;
 }
+.sec.project .contents .pj.two .imgs .top .screenshot:nth-child(1)::before {
+    content: "Main";
+}
 .sec.project .contents .pj.two .imgs .top .screenshot:nth-child(2) {
     background: url(/portfolio/img/stc_sec1.png) no-repeat center;
     background-size: cover;
+}
+.sec.project .contents .pj.two .imgs .top .screenshot:nth-child(2)::before {
+    content: "Main section1."
 }
 .sec.project .contents .pj.two .imgs .top .screenshot:nth-child(3) {
     background: url(/portfolio/img/stc_sec2.png) no-repeat center;
     background-size: cover;
 }
+.sec.project .contents .pj.two .imgs .top .screenshot:nth-child(3)::before {
+    content: "Main section2."
+}
 .sec.project .contents .pj.two .imgs .bottom .screenshot:nth-child(1) {
     background: url(/portfolio/img/stc_sec3-1.png) no-repeat center;
     background-size: cover;
 }
+.sec.project .contents .pj.two .imgs .bottom .screenshot:nth-child(1)::before {
+    content: "Main section3.";
+}
 .sec.project .contents .pj.two .imgs .bottom .screenshot:nth-child(2) {
     background: url(/portfolio/img/stc_sec3-2.png) no-repeat center;
     background-size: cover;
+}
+.sec.project .contents .pj.two .imgs .bottom .screenshot:nth-child(2)::before {
+    content: "Main section3."
 }
 
 .sec.project .contents .pj .detail .right .attr li[data-font="cor"] {
