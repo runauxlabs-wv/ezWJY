@@ -473,23 +473,23 @@ main .content .mine .message.last:after {
     background-color: #20344A;
 }
 
-.sec.project .contents .pj .imgs .screenshot:nth-child(1) {
+.sec.project .contents .pj.one .imgs .screenshot:nth-child(1) {
     background: url(/portfolio/img/cmoa_main.png) no-repeat center;
     background-size: cover;
 }
-.sec.project .contents .pj .imgs .screenshot:nth-child(2) {
+.sec.project .contents .pj.one .imgs .screenshot:nth-child(2) {
     background: url(/portfolio/img/cmoa_sub1.png) no-repeat center;
     background-size: cover;
 }
-.sec.project .contents .pj .imgs .screenshot:nth-child(3) {
+.sec.project .contents .pj.one .imgs .screenshot:nth-child(3) {
     background: url(/portfolio/img/cmoa_sub1-1.png) no-repeat center;
     background-size: cover;
 }
-.sec.project .contents .pj .imgs .screenshot:nth-child(4) {
+.sec.project .contents .pj.one .imgs .screenshot:nth-child(4) {
     background: url(/portfolio/img/cmoa_sub2.png) no-repeat center;
     background-size: cover;
 }
-.sec.project .contents .pj .imgs .screenshot:nth-child(5) {
+.sec.project .contents .pj.one .imgs .screenshot:nth-child(5) {
     background: url(/portfolio/img/cmoa_sub3.png) no-repeat center;
     background-size: cover;
 }
@@ -504,6 +504,27 @@ main .content .mine .message.last:after {
 
 .sec.project .contents .pj.two .detail .right .attr.color li:nth-child(3) {
     background-color: #EAEAEA;
+}
+
+.sec.project .contents .pj.two .imgs .screenshot:nth-child(1) {
+    background: url(/portfolio/img/stc_main.png) no-repeat center;
+    background-size: cover;
+}
+.sec.project .contents .pj.two .imgs .screenshot:nth-child(2) {
+    background: url(/portfolio/img/stc_sec1.png) no-repeat center;
+    background-size: cover;
+}
+.sec.project .contents .pj.two .imgs .screenshot:nth-child(3) {
+    background: url(/portfolio/img/stc_sec2.png) no-repeat center;
+    background-size: cover;
+}
+.sec.project .contents .pj.two .imgs .screenshot:nth-child(4) {
+    background: url(/portfolio/img/stc_sec3-1.png) no-repeat center;
+    background-size: cover;
+}
+.sec.project .contents .pj.two .imgs .screenshot:nth-child(5) {
+    background: url(/portfolio/img/stc_sec3-2.png) no-repeat center;
+    background-size: cover;
 }
 
 .sec.project .contents .pj .detail .right .attr li[data-font="cor"] {
