@@ -3,7 +3,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css');
-
 @import url('https://fonts.googleapis.com/icon?family=Material+Icons');
 
 * {
@@ -472,6 +471,22 @@ main .content .mine .message.last:after {
 
 .sec.project .contents .pj.one .detail .right .attr.color li:nth-child(3) {
     background-color: #20344A;
+}
+
+.sec.project .contents .pj .imgs .screenshot:nth-child(1) {
+    background: url(/portfolio/img/cmoa_main.png) no-repeat center;
+}
+.sec.project .contents .pj .imgs .screenshot:nth-child(2) {
+    background: url(/portfolio/img/cmoa_sub1.png) no-repeat center;
+}
+.sec.project .contents .pj .imgs .screenshot:nth-child(3) {
+    background: url(/portfolio/img/cmoa_main.png) no-repeat center;
+}
+.sec.project .contents .pj .imgs .screenshot:nth-child(4) {
+    background: url(/portfolio/img/cmoa_main.png) no-repeat center;
+}
+.sec.project .contents .pj .imgs .screenshot:nth-child(5) {
+    background: url(/portfolio/img/cmoa_main.png) no-repeat center;
 }
 
 .sec.project .contents .pj.two .detail .right .attr.color li:nth-child(1) {
