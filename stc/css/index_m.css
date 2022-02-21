@@ -84,37 +84,37 @@ body {
     height: 100vh;
 }
 .swiper-wrapper .swiper-slide:nth-child(1) {
-    background: url(/image/main_slide1.jpg) 20% 0 no-repeat;
+    background: url(/portfolio/stc/img/main_slide1.jpg) 20% 0 no-repeat;
     background-size: cover;
     background-color: rgba(0, 0, 0, 0.4);
     background-blend-mode: darken;
 }
 .swiper-wrapper .swiper-slide:nth-child(2) {
-    background: url(/image/main_slide2.jpg) 50% 0 no-repeat;
+    background: url(/portfolio/stc/img/main_slide2.jpg) 50% 0 no-repeat;
     background-size: cover;
     background-color: rgba(0, 0, 0, 0.4);
     background-blend-mode: darken;
 }
 .swiper-wrapper .swiper-slide:nth-child(3) {
-    background: url(/image/main_slide3.jpg) 20% 0 no-repeat;
+    background: url(/portfolio/stc/img/main_slide3.jpg) 20% 0 no-repeat;
     background-size: cover;
     background-color: rgba(0, 0, 0, 0.4);
     background-blend-mode: darken;
 }
 .swiper-wrapper .swiper-slide:nth-child(4) {
-    background: url(/image/main_slide4.jpg) 40% 0 no-repeat;
+    background: url(/portfolio/stc/img/main_slide4.jpg) 40% 0 no-repeat;
     background-size: cover;
     background-color: rgba(0, 0, 0, 0.4);
     background-blend-mode: darken;
 }
 .swiper-wrapper .swiper-slide:nth-child(5) {
-    background: url(/image/main_slide5.jpg) 65% 0 no-repeat;
+    background: url(/portfolio/stc/img/main_slide5.jpg) 65% 0 no-repeat;
     background-size: cover;
     background-color: rgba(0, 0, 0, 0.4);
     background-blend-mode: darken;
 }
 .swiper-wrapper .swiper-slide:nth-child(6) {
-    background: url(/image/main_slide6.jpg) 30% 0 no-repeat;
+    background: url(/portfolio/stc/img/main_slide6.jpg) 30% 0 no-repeat;
     background-size: cover;
     background-color: rgba(0, 0, 0, 0.4);
     background-blend-mode: darken;
@@ -280,7 +280,7 @@ body {
 .sec.donate {
     height: 100vh;
     max-height: 780px;
-    background: url(/image/mainweb_1560417456602.jpg) 50% 0 no-repeat;
+    background: url(/portfolio/stc/img/mainweb_1560417456602.jpg) 50% 0 no-repeat;
     background-size: cover;
     background-color: rgba(0, 0, 0, 0.6);
     background-blend-mode: darken;
