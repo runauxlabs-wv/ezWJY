@@ -457,18 +457,12 @@ main .content .mine .message.last:after {
     text-align: center;
     margin-bottom: 30px;
 }
-.sec.project .contents .pj.one .imgs .top .screenshot::before {
-    display: inline-block;
-    width: 100%;
-    height: 100%;
-    font-size: 22px;
-    line-height: 223px;
-    color: var(--text-color);
-    background: rgba(var(--bg-color), 0.6);
-    position: absolute;
-    top: 0;
-    left: 0;
+.sec.project .contents .pj.one .imgs .top .screenshot:hover::before {
+    content: none;
 }
+/* .sec.project .contents .pj.one .imgs .top .screenshot::before {
+
+} */
 
 .sec.project .contents .pj .imgs>div .screenshot:last-child {
     margin-right: 0;
@@ -493,34 +487,84 @@ main .content .mine .message.last:after {
 }
 .sec.project .contents .pj.one .imgs .top .screenshot:nth-child(1)::before {
     content: "Main";
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    font-size: 22px;
+    line-height: 223px;
+    color: var(--text-color);
+    background: rgba(var(--bg-color), 0.6);
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 .sec.project .contents .pj.one .imgs .top .screenshot:nth-child(2) {
     background: url(/portfolio/img/cmoa_sub1.png) no-repeat center;
     background-size: cover;
 }
 .sec.project .contents .pj.one .imgs .top .screenshot:nth-child(2)::before {
-    content: "Sub1. 현재 전시"
+    content: "Sub1. 현재 전시";
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    font-size: 22px;
+    line-height: 223px;
+    color: var(--text-color);
+    background: rgba(var(--bg-color), 0.6);
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 .sec.project .contents .pj.one .imgs .top .screenshot:nth-child(3) {
     background: url(/portfolio/img/cmoa_sub1-1.png) no-repeat center;
     background-size: cover;
 }
 .sec.project .contents .pj.one .imgs .top .screenshot:nth-child(3)::before {
-    content: "Sub1-1. 전시 상세"
+    content: "Sub1-1. 전시 상세";
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    font-size: 22px;
+    line-height: 223px;
+    color: var(--text-color);
+    background: rgba(var(--bg-color), 0.6);
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 .sec.project .contents .pj.one .imgs .bottom .screenshot:nth-child(1) {
     background: url(/portfolio/img/cmoa_sub2.png) no-repeat center;
     background-size: cover;
 }
 .sec.project .contents .pj.one .imgs .bottom .screenshot:nth-child(1)::before {
-    content: "Sub2. 방문"
+    content: "Sub2. 방문";
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    font-size: 22px;
+    line-height: 223px;
+    color: var(--text-color);
+    background: rgba(var(--bg-color), 0.6);
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 .sec.project .contents .pj.one .imgs .bottom .screenshot:nth-child(2) {
     background: url(/portfolio/img/cmoa_sub3.png) no-repeat center;
     background-size: cover;
 }
 .sec.project .contents .pj.one .imgs .bottom .screenshot:nth-child(2)::before {
-    content: "Sub3. 교육/행사"
+    content: "Sub3. 교육/행사";
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    font-size: 22px;
+    line-height: 223px;
+    color: var(--text-color);
+    background: rgba(var(--bg-color), 0.6);
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 
 .sec.project .contents .pj.two .detail .right .attr.color li:nth-child(1) {
@@ -541,20 +585,50 @@ main .content .mine .message.last:after {
 }
 .sec.project .contents .pj.two .imgs .top .screenshot:nth-child(1)::before {
     content: "Main";
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    font-size: 22px;
+    line-height: 223px;
+    color: var(--text-color);
+    background: rgba(var(--bg-color), 0.6);
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 .sec.project .contents .pj.two .imgs .top .screenshot:nth-child(2) {
     background: url(/portfolio/img/stc_sec1.png) no-repeat center;
     background-size: cover;
 }
 .sec.project .contents .pj.two .imgs .top .screenshot:nth-child(2)::before {
-    content: "Main section1."
+    content: "Main section1.";
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    font-size: 22px;
+    line-height: 223px;
+    color: var(--text-color);
+    background: rgba(var(--bg-color), 0.6);
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 .sec.project .contents .pj.two .imgs .top .screenshot:nth-child(3) {
     background: url(/portfolio/img/stc_sec2.png) no-repeat center;
     background-size: cover;
 }
 .sec.project .contents .pj.two .imgs .top .screenshot:nth-child(3)::before {
-    content: "Main section2."
+    content: "Main section2.";
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    font-size: 22px;
+    line-height: 223px;
+    color: var(--text-color);
+    background: rgba(var(--bg-color), 0.6);
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 .sec.project .contents .pj.two .imgs .bottom .screenshot:nth-child(1) {
     background: url(/portfolio/img/stc_sec3-1.png) no-repeat center;
@@ -562,13 +636,33 @@ main .content .mine .message.last:after {
 }
 .sec.project .contents .pj.two .imgs .bottom .screenshot:nth-child(1)::before {
     content: "Main section3.";
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    font-size: 22px;
+    line-height: 223px;
+    color: var(--text-color);
+    background: rgba(var(--bg-color), 0.6);
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 .sec.project .contents .pj.two .imgs .bottom .screenshot:nth-child(2) {
     background: url(/portfolio/img/stc_sec3-2.png) no-repeat center;
     background-size: cover;
 }
 .sec.project .contents .pj.two .imgs .bottom .screenshot:nth-child(2)::before {
-    content: "Main section3."
+    content: "Main section3.";
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    font-size: 22px;
+    line-height: 223px;
+    color: var(--text-color);
+    background: rgba(var(--bg-color), 0.6);
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 
 .sec.project .contents .pj .detail .right .attr li[data-font="cor"] {
