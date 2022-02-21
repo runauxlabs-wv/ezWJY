@@ -1,8 +1,30 @@
 @charset "utf-8";
 
+body {
+    min-width: 320px;
+}
+header {
+    width: 100vw;
+    height: 100px;
+    padding: 30px;
+}
+header nav ul {
+    width: 90vw;
+    min-width: 320px;
+}
+header nav ul li {
+    margin-right: 30px;
+    float: none;
+    display: inline-block;
+}
+header nav ul li a {
+    font-size: 20px;
+}
 main {
     width: 100vw;
     min-height: 600px;
+    max-height: 800px;
+    padding: 50px 0;
 }
 main .content {
     width: 80vw;
@@ -22,11 +44,12 @@ main .content .messages {
 }
 main .content .message {
     font-size: 15px;
-    padding: 4px 8px;
+    padding: 4px 15px;
 }
 main .content .mine .message {
     margin-left: 0;
     min-height: 20px;
+    text-align: left;
 }
 main .content .yours .message.last::before {
     width: 15px;
@@ -50,7 +73,12 @@ main .content .yours .message.last::after {
     width: 220px;
     height: 220px;
     float: none;
-    margin-bottom: 20px;
+    margin: 0 auto 30px auto;
+    clip-path: circle(110px at 110px 110px);
+}
+.sec.info .contents .profile::before {
+    width: 220px;
+    height: 220px;
 }
 .sec.info .contents .introduce {
     float: none;
@@ -73,7 +101,7 @@ main .content .yours .message.last::after {
     float: none;
 }
 .sec.info .contents .introduce .progress-bar {
-    width: 100%;
+    width: 85%;
     height: 10px;
     margin: 0;
     border: 1px solid var(--text-color);
@@ -81,6 +109,10 @@ main .content .yours .message.last::after {
 .sec.info .contents .introduce .progress-fill {
     height: 10px;
     top: -1px;
+}
+.sec.info .contents .introduce .progress-text {
+    width: 10%;
+    float: right;
 }
 
 .sec.project .contents .pj h2 {
@@ -104,10 +136,16 @@ main .content .yours .message.last::after {
 }
 .sec.project .contents .pj .detail .right {
     width: 100%;
+    height: unset;
     float: none;
 }
 .sec.project .contents .pj .detail .right p {
     font-size: 13px;
+}
+.sec.project .contents .pj .detail .right .paragraph li {
+    font-size: 13px;
+    white-space: normal;
+    word-break: keep-all;
 }
 .sec.project .contents .pj .detail .right .attr {
     margin-top: 15px;
@@ -206,7 +244,7 @@ main .content .yours .message.last::after {
 }
 .sec.contact .left #contactForm .btGroup input {
     width: 48%;
-    height: 20px;
+    height: 25px;
     font-size: 11px;
 }
 .sec.contact .left #contactForm .btGroup input:first-child {
@@ -233,12 +271,12 @@ main .content .yours .message.last::after {
     right: 20px;
 }
 .btGroup2 .darkmode {
-    width: 30px;
-    height: 30px;
+    width: 45px;
+    height: 45px;
 }
 .btGroup2 .darkmode::before {
-    font-size: 15px;
-    top: 23%;
+    font-size: 23px;
+    top: 20%;
 }
 footer {
     width: 100vw;
