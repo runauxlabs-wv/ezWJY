@@ -481,6 +481,13 @@ function createChart() {
                     title: {
                         display: false,
                     }
+                },
+                scales: {
+                    yAxes: [{
+                        ticks: {
+                            fontSize: 9
+                        }
+                    }]
                 }
             }
         });
