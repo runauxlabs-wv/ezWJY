@@ -459,7 +459,7 @@ main .content .mine .message.last:after {
     line-height: 223px;
 }
 .sec.project .contents .pj .imgs .screenshot:hover {
-    background: none;
+    background-color: rgba(var(--bg-color), 0);
 }
 .sec.project .contents .pj .imgs .screenshot:hover div {
     visibility: hidden;
