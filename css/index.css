@@ -466,6 +466,7 @@ main .content .mine .message.last:after {
 }
 .sec.project .contents .pj .imgs .screenshot:hover div {
     background-color: rgba(var(--bg-color), 0);
+    text-indent: -9999px; 
 }
 .sec.project .contents .pj .imgs .top,
 .sec.project .contents .pj .imgs .bottom {
