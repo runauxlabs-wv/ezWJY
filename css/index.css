@@ -111,10 +111,18 @@ main .content .connectTime {
     font-size: 20px;
     color: #8A898E;
     text-align: center;
+    margin-bottom: 50px;
 }
-main .content img {
+main .content #imageChange {
+    display: inline-block;
     width: 300px;
-    height: 300px;
+    height: 250px;
+    background: url(/portfolio/img/memoji_light_mode.gif) no-repeat center;
+    background-size: 400px;
+}
+main .content #imageChange.dark {
+    background: url(/portfolio/img/memoji_dark_mode.gif) no-repeat center;
+    background-size: 400px;
 }
 
 main .content .chat {
@@ -136,6 +144,7 @@ main .content .message {
     margin-bottom: 5px;
     display: inline-block;
     font-family: 'Noto Sans KR', sans-serif;
+    text-align: left;
 }
 
 main .content .yours {
@@ -663,8 +672,18 @@ main .content .mine .message.last:after {
 
 .sec.contact .right {
     width: 450px;
+    position: relative;
 }
-
+.sec.contact .right::before {
+    display: inline-block;
+    content: "";
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    right: 0;
+    background: url(/img/contactMe.png) no-repeat center;
+    background-size: cover;
+}
 .sec.contact .right h2 {
     margin-bottom: 40px;
     font-size: 25px;

@@ -19,21 +19,36 @@ $(document).ready(function () {
 
   //typing message 
   var i = 0;
-  var txt = 'Lorem ipsum dummy text blabla. Lorem ipsum dummy text blabla. Lorem ipsum dummy text blabla.';
+  var j = 0;
+  var txt = '파도처럼 흔들려도 멈춰있지 않고 끊임없이 앞으로 나아가는 사람';
+  var txt2 = '원진영입니다';
   var speed = 50;
-  var $this = document.querySelector('.chat .mine .last');
+  var $first = document.querySelector('.chat .mine .first');
+  var $last = document.querySelector('.chat .mine .last');
 
-  function typeWriter() {
+  function typeWriter1() {
     if (i < txt.length) {
-      $this.innerHTML += txt.charAt(i);
+      $first.innerHTML += txt.charAt(i);
       i++;
-      setTimeout(typeWriter, speed);
+      setTimeout(typeWriter1, speed);
+    }
+  }
+
+  function typeWriter2() {
+    if (j < txt2.length) {
+      $last.innerHTML += txt2.charAt(j);
+      j++;
+      setTimeout(typeWriter2, speed);
     }
   }
 
   setInterval(function () {
-    typeWriter()
+    typeWriter1()
   }, 100);
+
+  setInterval(function () {
+    typeWriter2()
+  }, 1000);
 
   //dark-light mode
   const rootDataset = document.documentElement.dataset;
@@ -41,6 +56,7 @@ $(document).ready(function () {
     $(".darkmode").toggleClass('light');
     const inDarkMode = (rootDataset.theme === 'dark');
     rootDataset.theme = inDarkMode ? '' : 'dark';
+    $("#imageChange").toggleClass('dark');
   });
 });
 
