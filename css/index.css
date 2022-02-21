@@ -337,11 +337,12 @@ main .content .mine .message.last:after {
     position: relative;
 }
 
-.sec.project .contents .pj .detail .right .paragraph {
+.sec.project .contents .pj .detail .right .paragraph li {
     font-family: 'Noto Sans KR', sans-serif;
     font-size: 20px;
     font-weight: 300;
-    white-space: pre-wrap;
+    margin-bottom: 8px;
+    list-style: inside;
 }
 
 .sec.project .contents .pj .detail .right .attr {
