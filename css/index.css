@@ -449,6 +449,7 @@ main .content .mine .message.last:after {
     height: 223px;
     background-color: #eee;
     margin-right: 25px;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.3);
 }
 
 .sec.project .contents .pj .imgs .top,
