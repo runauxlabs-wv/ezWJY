@@ -22,16 +22,24 @@ main .content .messages {
 }
 main .content .message {
     font-size: 15px;
+    padding: 4px 8px;
 }
 main .content .mine .message {
     margin-left: 0;
+    min-height: 20px;
 }
-
+main .content .yours .message.last::before {
+    width: 15px;
+}
+main .content .yours .message.last::before,
+main .content .yours .message.last::after {
+    height: 10px;
+}
 .sec {
     width: 100vw;
 }
 .sec h1 {
-    font-size: 30px;
+    font-size: 25px;
     margin-bottom: 30px;
 }
 .sec .inner {
@@ -76,10 +84,13 @@ main .content .mine .message {
 }
 
 .sec.project .contents .pj h2 {
-    font-size: 23px;
+    font-size: 20px;
     line-height: 25px;
     padding-right: 0;
     margin-bottom: 20px;
+}
+.sec.project .contents .pj .detail {
+    margin-bottom: 15px;
 }
 .sec.project .contents .pj .detail .left {
     float: none;
@@ -89,19 +100,20 @@ main .content .mine .message {
 .sec.project .contents .pj .detail .left .mockup {
     width: 100%;
     height: 200px;
+    margin-bottom: 10px;
 }
 .sec.project .contents .pj .detail .right {
     width: 100%;
     float: none;
 }
 .sec.project .contents .pj .detail .right p {
-    font-size: 15px;
+    font-size: 13px;
 }
 .sec.project .contents .pj .detail .right .attr {
-    margin-top: 20px;
+    margin-top: 15px;
 }
 .sec.project .contents .pj .detail .right .attr p {
-    font-size: 18px;
+    font-size: 15px;
 }
 .sec.project .contents .pj .detail .right .attr ul li {
     margin-right: 20px;
@@ -112,9 +124,16 @@ main .content .mine .message {
     border-radius: 3px;;
 }
 .sec.project .contents .pj .detail .right .attr .clearfix > li {
-    font-size: 15px;
+    font-size: 13px;
 }
 .sec.project .contents .pj .detail .right .attr li[data-font="cor"] {
+    font-size: 13px;
+}
+.sec.project .contents .pj .detail .right .attr.device li::before {
+    font-size: 13px;
+    top: 0;
+}
+.sec.project .contents .pj .detail .right .attr.device li:last-child::before {
     font-size: 15px;
 }
 .sec.project .contents .pj .detail .right .attr.browser li{
@@ -122,8 +141,8 @@ main .content .mine .message {
     height: 25px;
 }
 .sec.project .contents .pj .detail .right .goTo {
-    /* width: 120px; */
     position: relative;
+    text-align: left;
 }
 .sec.project .contents .pj .detail .goTo a {
     font-size: 13px;
@@ -136,4 +155,96 @@ main .content .mine .message {
 }
 .sec.project .contents .pj .detail .goTo img {
     display: none;
+}
+.sec.project .contents .pj .imgs {
+    text-align: center;
+}
+.sec.project .contents .pj .imgs .top, 
+.sec.project .contents .pj .imgs .bottom {
+    margin-bottom: 0;
+}
+.sec.project .contents .pj .imgs .screenshot {
+    width: 220px;
+    height: 129.11px;
+    margin-right: 0;
+    margin-bottom: 10px;
+}
+.sec.project .contents .pj .imgs .screenshot div {
+    line-height: 129px;
+    font-size: 15px;
+}
+.sec.project .contents .pj {
+    margin-bottom: 30px;
+}
+.sec.contact {
+    min-height: 600px;
+}
+.sec.contact .left {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 30px;
+}
+.sec.contact .left #contactForm .btGroup input {
+    margin-top: 15px;
+    border-radius: 5px;
+}
+.sec.contact .left #contactForm input, 
+.sec.contact .left #contactForm textarea {
+    height: 30px;
+    padding: 5px 10px;
+    font-size: 13px;
+}
+.sec.contact .left #contactForm input::placeholder,
+.sec.contact .left #contactForm textarea::placeholder {
+    font-size: 13px;
+}
+.sec.contact .left #contactForm textarea {
+    height: 150px;
+}
+.sec.contact .left #contactForm input.email {
+    margin: 10px 0;
+}
+.sec.contact .left #contactForm .btGroup input {
+    width: 48%;
+    height: 20px;
+    font-size: 11px;
+}
+.sec.contact .left #contactForm .btGroup input:first-child {
+    margin-right: 5px;
+}
+.sec.contact .right {
+    width: 100%;
+}
+.sec.contact .right h2 {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+.sec.contact .right ul li {
+    font-size: 15px;
+    line-height: 20px;
+    padding-left: 20px;
+    margin-bottom: 8px;
+}
+.sec.contact .right ul li::before {
+    font-size: 10px;
+}
+.btGroup2 {
+    bottom: 20px;
+    right: 20px;
+}
+.btGroup2 .darkmode {
+    width: 30px;
+    height: 30px;
+}
+.btGroup2 .darkmode::before {
+    font-size: 15px;
+    top: 23%;
+}
+footer {
+    width: 100vw;
+    height: 60px;
+    padding: 10px;
+}
+footer p {
+    font-size: 12px;
 }
