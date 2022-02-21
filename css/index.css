@@ -681,7 +681,7 @@ main .content .mine .message.last:after {
     width: 150px;
     height: 150px;
     right: 0;
-    background: url(/img/contactMe.png) no-repeat center;
+    background: url(/portfolio/img/contactMe.png) no-repeat center;
     background-size: cover;
 }
 .sec.contact .right h2 {
