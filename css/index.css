@@ -325,14 +325,14 @@ main .content .mine .message.last:after {
 
 .sec.project .contents .pj .detail .left .mockup {
     width: 570px;
-    height: 534px;
+    height: 545px;
     background-color: #eee;
     margin-bottom: 30px;
 }
 
 .sec.project .contents .pj .detail .right {
     width: 580px;
-    height: 534px;
+    height: 545px;
     float: right;
     position: relative;
 }
@@ -343,6 +343,7 @@ main .content .mine .message.last:after {
     font-weight: 300;
     margin-bottom: 8px;
     list-style: inside;
+    white-space: pre-wrap;
 }
 
 .sec.project .contents .pj .detail .right .attr {
