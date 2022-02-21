@@ -447,8 +447,6 @@ main .content .mine .message.last:after {
     display: inline-block;
     width: 380px;
     height: 223px;
-    background-color: rgba(var(--bg-color), 0.6);
-    background-blend-mode: normal;
     margin-right: 25px;
     box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.3);
     position: relative;
