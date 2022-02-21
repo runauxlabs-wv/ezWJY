@@ -1,0 +1,139 @@
+@charset "utf-8";
+
+main {
+    width: 100vw;
+    min-height: 600px;
+}
+main .content {
+    width: 80vw;
+    height: 500px;
+    text-align: center;
+}
+main .content .connectTime {
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+main .content img {
+    width: 150px;
+    height: 150px;
+}
+main .content .messages {
+    margin-top: 20px;
+}
+main .content .message {
+    font-size: 15px;
+}
+main .content .mine .message {
+    margin-left: 0;
+}
+
+.sec {
+    width: 100vw;
+}
+.sec h1 {
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+.sec .inner {
+    width: 90vw;
+    padding: 30px;
+}
+.sec.info .contents .profile {
+    width: 220px;
+    height: 220px;
+    float: none;
+    margin-bottom: 20px;
+}
+.sec.info .contents .introduce {
+    float: none;
+}
+.sec.info .contents .introduce > ul {
+    width: 100%;
+}
+.sec.info .contents .introduce ul li h2 {
+    font-size: 20px;
+    width: 100%;
+    margin-bottom: 10px;
+    margin-right: 0;
+    float: none;
+}
+.sec.info .contents .introduce ul li span, .sec.info .contents .introduce ul li > ul > li {
+    font-size: 15px;
+}
+.sec.info .contents .introduce ul li > ul {
+    width: 100%;
+    float: none;
+}
+.sec.info .contents .introduce .progress-bar {
+    width: 100%;
+    height: 10px;
+    margin: 0;
+    border: 1px solid var(--text-color);
+}
+.sec.info .contents .introduce .progress-fill {
+    height: 10px;
+    top: -1px;
+}
+
+.sec.project .contents .pj h2 {
+    font-size: 23px;
+    line-height: 25px;
+    padding-right: 0;
+    margin-bottom: 20px;
+}
+.sec.project .contents .pj .detail .left {
+    float: none;
+    width: 100%;
+    margin-right: 0;
+}
+.sec.project .contents .pj .detail .left .mockup {
+    width: 100%;
+    height: 200px;
+}
+.sec.project .contents .pj .detail .right {
+    width: 100%;
+    float: none;
+}
+.sec.project .contents .pj .detail .right p {
+    font-size: 15px;
+}
+.sec.project .contents .pj .detail .right .attr {
+    margin-top: 20px;
+}
+.sec.project .contents .pj .detail .right .attr p {
+    font-size: 18px;
+}
+.sec.project .contents .pj .detail .right .attr ul li {
+    margin-right: 20px;
+}
+.sec.project .contents .pj .detail .right .attr.color li {
+    width: 20px;
+    height: 20px;
+    border-radius: 3px;;
+}
+.sec.project .contents .pj .detail .right .attr .clearfix > li {
+    font-size: 15px;
+}
+.sec.project .contents .pj .detail .right .attr li[data-font="cor"] {
+    font-size: 15px;
+}
+.sec.project .contents .pj .detail .right .attr.browser li{
+    width: 25px;
+    height: 25px;
+}
+.sec.project .contents .pj .detail .right .goTo {
+    /* width: 120px; */
+    position: relative;
+}
+.sec.project .contents .pj .detail .goTo a {
+    font-size: 13px;
+    line-height: 20px;
+    width: 50px;
+    height: 20px;
+    border-radius: 5px;
+    margin-bottom: 0px;
+    margin-top: 10px;
+}
+.sec.project .contents .pj .detail .goTo img {
+    display: none;
+}
