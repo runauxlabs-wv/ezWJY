@@ -19,6 +19,7 @@ main.on {
 
 main .inner {
     width: 100vw;
+    min-height: 560px;
 }
 
 main .gnb {
@@ -529,6 +530,7 @@ section .sec.anx .content .inner .rectangle {
     width: 250px;
     height: 250px;
     order: -1;
+    margin-top: 0;
     margin-bottom: 30px;
 }
 

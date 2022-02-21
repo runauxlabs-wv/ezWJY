@@ -1017,6 +1017,8 @@ section .inner main .content .today .bottom .exhiScroll .slick-track {
 }
 section .inner main .content .today .bottom .exhiScroll .swiper-slide {
     width: 216px;
+    height: 60px;
+    margin-bottom: 20px;
 }
 section .inner main .content .today .bottom .exhiScroll .exhilist {
     width: 100%;
