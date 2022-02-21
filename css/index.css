@@ -446,7 +446,7 @@ main .content .mine .message.last:after {
 .sec.project .contents .pj .imgs .screenshot {
     display: inline-block;
     width: 380px;
-    height: 196px;
+    height: 223px;
     background-color: #eee;
     margin-right: 25px;
 }
@@ -482,15 +482,15 @@ main .content .mine .message.last:after {
     background-size: cover;
 }
 .sec.project .contents .pj .imgs .screenshot:nth-child(3) {
-    background: url(/portfolio/img/cmoa_main.png) no-repeat center;
+    background: url(/portfolio/img/cmoa_sub1-1.png) no-repeat center;
     background-size: cover;
 }
 .sec.project .contents .pj .imgs .screenshot:nth-child(4) {
-    background: url(/portfolio/img/cmoa_main.png) no-repeat center;
+    background: url(/portfolio/img/cmoa_sub2.png) no-repeat center;
     background-size: cover;
 }
 .sec.project .contents .pj .imgs .screenshot:nth-child(5) {
-    background: url(/portfolio/img/cmoa_main.png) no-repeat center;
+    background: url(/portfolio/img/cmoa_sub3.png) no-repeat center;
     background-size: cover;
 }
 
