@@ -41,13 +41,6 @@ body {
     background: var(--bg-color);
 }
 
-.pj h2 {
-    line-height: 60px;
-    padding-right: 60px;
-    display: inline-block;
-    font-style: italic;
-}
-
 ul,
 li,
 a {
@@ -327,15 +320,33 @@ main .content .mine .message.last:after {
 }
 
 .sec.project .contents .pj {
-    margin-bottom: 150px;
+    margin-bottom: 50px;
 }
 
 .sec.project .contents .pj h2 {
     font-size: 35px;
     font-weight: 500;
+    line-height: 60px;
+    font-style: italic;
     margin-bottom: 40px;
+    padding-left: 35px;
+    position: relative;
+    cursor: pointer;
 }
-
+.sec.project .contents .pj h2::before {
+    content: "";
+    position: absolute;
+    top: 36%;
+    left: 0;
+    width: 0; 
+    height: 0; 
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 15px solid var(--text-color);
+}
+.sec.project .contents .pj h2.on:before {
+    transform: rotate(-90deg);
+}
 .sec.project .contents .pj .detail {
     margin-bottom: 40px;
 }
