@@ -20,6 +20,7 @@
     --second-color: #F5F5F5;
     --second-text-color: #858585;
     --second-hover-color: rgb(211, 211, 211);
+    --ani-color: 0, 106, 219;
 }
 
 [data-theme="dark"] {
@@ -28,6 +29,7 @@
     --second-color: #262626;
     --second-text-color: #858585;
     --second-hover-color: rgb(0, 0, 0);
+    --ani-color: 0, 106, 219;
 }
 
 .inner {
@@ -741,6 +743,38 @@ main .content .mine .message.last:after {
     display: inline-block;
 }
 
+.sec.contact .right .tooltip::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: -8px;
+	border-radius: 50%;
+	height: 30px;
+	width: 30px;
+	transform: scale(1);
+	animation: pulse-black 2s infinite;
+    background: rgba(var(--ani-color), 0.2);
+    box-shadow: 0 0 0 0 rgba(var(--ani-color), 1);
+    animation: pulse-blue 2s infinite;
+}
+@keyframes pulse-blue {
+	0% {
+		transform: scale(0.95);
+		box-shadow: 0 0 0 0 rgba(var(--ani-color), 0.3);
+	}
+	
+	70% {
+		transform: scale(1);
+		box-shadow: 0 0 0 10px rgba(var(--ani-color), 0);
+	}
+	
+	100% {
+		transform: scale(0.95);
+		box-shadow: 0 0 0 0 rgba(var(--ani-color), 0);
+	}
+}
+
+
 .sec.contact .right .tooltip .copy {
     font-size: 20px;
     position: relative;
@@ -778,6 +812,7 @@ main .content .mine .message.last:after {
     margin: 0;
     padding: 0;
     border: 0;
+    visibility: hidden;
 }
 
 .sec.contact .right .tooltip .tooltiptext {
