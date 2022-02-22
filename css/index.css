@@ -329,7 +329,7 @@ main .content .mine .message.last:after {
     line-height: 60px;
     font-style: italic;
     margin-bottom: 40px;
-    padding: 0 10px 0 35px;
+    padding-left: 35px;
     position: relative;
     display: inline-block;
     cursor: pointer;
@@ -340,7 +340,7 @@ main .content .mine .message.last:after {
     position: absolute;
     right: 0;
     bottom: 0;
-    width: 92%;
+    width: 91%;
     height: 2px;
     background: var(--text-color);
 }
