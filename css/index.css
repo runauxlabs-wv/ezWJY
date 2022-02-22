@@ -15,16 +15,16 @@
 }
 
 :root {
-    --text-color: rgb(0, 0, 0);
-    --bg-color: rgb(255, 255, 255);
+    --text-color: 0, 0, 0;
+    --bg-color: 255, 255, 255;
     --second-color: #F5F5F5;
     --second-text-color: #858585;
     --second-hover-color: rgb(211, 211, 211);
 }
 
 [data-theme="dark"] {
-    --text-color: rgb(255, 255, 255);
-    --bg-color: rgb(0, 0, 0);
+    --text-color: 255, 255, 255;
+    --bg-color: 0, 0, 0;
     --second-color: #262626;
     --second-text-color: #858585;
     --second-hover-color: rgb(0, 0, 0);
@@ -38,7 +38,7 @@ body {
     min-width: 1200px;
     width: 100vw;
     max-width: 100%;
-    background: var(--bg-color);
+    background: rgb(var(--bg-color));
 }
 
 ul,
@@ -59,7 +59,7 @@ a {
 header {
     height: 100px;
     padding: 30px;
-    background: var(--bg-color);
+    background: rgb(var(--bg-color));
     position: sticky;
     top: 0;
     z-index: 100;
@@ -82,7 +82,7 @@ header nav ul li:last-child {
 
 header nav ul li a {
     font-size: 25px;
-    color: var(--text-color);
+    color: rgb(var(--text-color));
 }
 
 main {
@@ -106,6 +106,7 @@ main .content .connectTime {
     text-align: center;
     margin-bottom: 50px;
 }
+
 main .content #imageChange {
     display: inline-block;
     width: 300px;
@@ -113,6 +114,7 @@ main .content #imageChange {
     background: url(/portfolio/img/memoji_light_mode.gif) no-repeat center;
     background-size: 400px;
 }
+
 main .content #imageChange.dark {
     background: url(/portfolio/img/memoji_dark_mode.gif) no-repeat center;
     background-size: 400px;
@@ -170,7 +172,7 @@ main .content .yours .message.last:after {
     left: -10px;
     width: 10px;
     height: 20px;
-    background: var(--bg-color);
+    background: rgb(var(--bg-color));
     border-bottom-right-radius: 10px;
 }
 
@@ -207,7 +209,7 @@ main .content .mine .message.last:after {
     right: -10px;
     width: 10px;
     height: 20px;
-    background: var(--bg-color);
+    background: rgb(var(--bg-color));
     border-bottom-left-radius: 10px;
 }
 
@@ -215,7 +217,7 @@ main .content .mine .message.last:after {
 .sec .inner {
     width: 1200px;
     padding: 100px 0;
-    color: var(--text-color);
+    color: rgb(var(--text-color));;
 }
 
 .sec h1 {
@@ -233,9 +235,10 @@ main .content .mine .message.last:after {
     float: left;
     position: relative;
     border-radius: 50%;
-    background:rgb(221, 221, 221);
+    background: rgb(221, 221, 221);
     clip-path: circle(150px at 150px 150px);
 }
+
 .sec.info .contents .profile::before {
     content: "";
     display: inline-block;
@@ -256,7 +259,7 @@ main .content .mine .message.last:after {
 
 .sec.info .contents .introduce>ul>li {
     padding: 20px 0;
-    border-bottom: 1px solid var(--text-color);
+    border-bottom: 1px solid rgb(var(--text-color));;
 }
 
 .sec.info .contents .introduce>ul>li:first-child {
@@ -302,7 +305,7 @@ main .content .mine .message.last:after {
 .sec.info .contents .introduce .progress-bar {
     width: 370px;
     height: 20px;
-    border: 2px solid var(--text-color);
+    border: 2px solid rgb(var(--text-color));;
     margin: 5px 20px 5px 5px;
     border-radius: 20px;
     position: relative;
@@ -315,12 +318,8 @@ main .content .mine .message.last:after {
     left: -2px;
     width: 150px;
     height: 20px;
-    background: var(--text-color);
+    background: rgb(var(--text-color));;
     border-radius: 20px;
-}
-
-.sec.project .contents .pj {
-    margin-bottom: 50px;
 }
 
 .sec.project .contents .pj h2 {
@@ -334,6 +333,7 @@ main .content .mine .message.last:after {
     display: inline-block;
     cursor: pointer;
 }
+
 .sec.project .contents .pj h2:hover::after {
     content: "";
     display: inline-block;
@@ -342,22 +342,25 @@ main .content .mine .message.last:after {
     bottom: 0;
     width: 91%;
     height: 2px;
-    background: var(--text-color);
+    background: rgb(var(--text-color));;
 }
+
 .sec.project .contents .pj h2::before {
     content: "";
     position: absolute;
     top: 36%;
     left: 0;
-    width: 0; 
-    height: 0; 
+    width: 0;
+    height: 0;
     border-left: 10px solid transparent;
     border-right: 10px solid transparent;
-    border-top: 15px solid var(--text-color);
+    border-top: 15px solid rgb(var(--text-color));;
 }
+
 .sec.project .contents .pj h2.on:before {
     transform: rotate(-90deg);
 }
+
 .sec.project .contents .pj .detail {
     margin-bottom: 40px;
 }
@@ -373,10 +376,12 @@ main .content .mine .message.last:after {
     background-color: #eee;
     margin-bottom: 30px;
 }
+
 .sec.project .contents .pj.one .detail .left .mockup {
     background: url(/portfolio/img/cmoa_device_mockup.png) 0 0 no-repeat;
     background-size: contain;
 }
+
 .sec.project .contents .pj.two .detail .left .mockup {
     background: url(/portfolio/img/stc_device_mockup.png) 0 0 no-repeat;
     background-size: contain;
@@ -435,7 +440,7 @@ main .content .mine .message.last:after {
     left: 3px;
     font-size: 16px;
     font-weight: 600;
-    color: var(--text-color);
+    color: rgb(var(--text-color));;
 }
 
 .sec.project .contents .pj .detail .right .attr.device li:first-child::before {
@@ -495,7 +500,7 @@ main .content .mine .message.last:after {
 
 .sec.project .contents .pj .detail .goTo a {
     font-size: 18px;
-    color: var(--text-color);
+    color: rgb(var(--text-color));;
     display: inline-block;
     line-height: 30px;
     margin-bottom: 10px;
@@ -513,6 +518,10 @@ main .content .mine .message.last:after {
     /* color: #fff; */
 }
 
+.sec.project .contents .pj .imgs {
+    margin-bottom: 60px;
+}
+
 .sec.project .contents .pj .imgs .screenshot {
     display: inline-block;
     width: 380px;
@@ -521,6 +530,7 @@ main .content .mine .message.last:after {
     box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.3);
     position: relative;
 }
+
 .sec.project .contents .pj .imgs .screenshot div {
     position: absolute;
     top: 0;
@@ -533,10 +543,12 @@ main .content .mine .message.last:after {
     line-height: 223px;
     z-index: 0;
 }
+
 .sec.project .contents .pj .imgs .screenshot:hover div {
     background-color: rgba(var(--bg-color), 0);
-    text-indent: -9999px; 
+    text-indent: -9999px;
 }
+
 .sec.project .contents .pj .imgs .top,
 .sec.project .contents .pj .imgs .bottom {
     text-align: center;
@@ -563,23 +575,28 @@ main .content .mine .message.last:after {
     background: url(/portfolio/img/cmoa_main.png) no-repeat center;
     background-size: cover;
 }
+
 .sec.project .contents .pj.one .imgs .top .screenshot:nth-child(2) {
     background: url(/portfolio/img/cmoa_sub1.png) no-repeat center;
     background-size: cover;
 }
+
 .sec.project .contents .pj.one .imgs .top .screenshot:nth-child(3) {
     background: url(/portfolio/img/cmoa_sub1-1.png) no-repeat center;
     background-size: cover;
 }
+
 .sec.project .contents .pj.one .imgs .bottom .screenshot:nth-child(1) {
     background: url(/portfolio/img/cmoa_sub2.png) no-repeat center;
     background-size: cover;
 }
+
 .sec.project .contents .pj.one .imgs .bottom .screenshot:nth-child(2) {
     background: url(/portfolio/img/cmoa_sub3.png) no-repeat center;
     background-size: cover;
     position: relative;
 }
+
 .sec.project .contents .pj.two .detail .right .attr.color li:nth-child(1) {
     background-color: #DA281F;
 }
@@ -596,18 +613,22 @@ main .content .mine .message.last:after {
     background: url(/portfolio/img/stc_main.png) no-repeat center;
     background-size: cover;
 }
+
 .sec.project .contents .pj.two .imgs .top .screenshot:nth-child(2) {
     background: url(/portfolio/img/stc_sec1.png) no-repeat center;
     background-size: cover;
 }
+
 .sec.project .contents .pj.two .imgs .top .screenshot:nth-child(3) {
     background: url(/portfolio/img/stc_sec2.png) no-repeat center;
     background-size: cover;
 }
+
 .sec.project .contents .pj.two .imgs .bottom .screenshot:nth-child(1) {
     background: url(/portfolio/img/stc_sec3-1.png) no-repeat center;
     background-size: cover;
 }
+
 .sec.project .contents .pj.two .imgs .bottom .screenshot:nth-child(2) {
     background: url(/portfolio/img/stc_sec3-2.png) no-repeat center;
     background-size: cover;
@@ -640,7 +661,7 @@ main .content .mine .message.last:after {
 .sec.contact .left #contactForm input,
 .sec.contact .left #contactForm textarea {
     width: 100%;
-    color: var(--text-color);
+    color: rgb(var(--text-color));;
     background-color: var(--second-color);
     padding: 15px 20px;
     font-size: 18px;
@@ -697,6 +718,7 @@ main .content .mine .message.last:after {
     width: 450px;
     position: relative;
 }
+
 .sec.contact .right::before {
     display: inline-block;
     content: "";
@@ -707,37 +729,89 @@ main .content .mine .message.last:after {
     background: url(/portfolio/img/contactMe.png) no-repeat center;
     background-size: cover;
 }
+
 .sec.contact .right h2 {
     margin-bottom: 40px;
     font-size: 25px;
     font-weight: 500;
 }
 
-.sec.contact .right ul li {
+.sec.contact .right .tooltip {
+    position: relative;
+    display: inline-block;
+}
+
+.sec.contact .right .tooltip .copy {
     font-size: 20px;
     position: relative;
     padding-left: 30px;
     line-height: 30px;
     margin-bottom: 20px;
+    cursor: pointer;
 }
 
-.sec.contact .right ul li::before {
+.sec.contact .right .tooltip .copy::before {
     font-family: "Font Awesome 5 Free";
     display: inline-block;
     position: absolute;
     top: 0;
     left: 0;
-    color: var(--text-color);
+    color: rgb(var(--text-color));;
     font-weight: 600;
     font-size: 16px;
 }
 
-.sec.contact .right ul li:first-child:before {
+.sec.contact .right .tooltip:first-child .copy::before {
     content: "\f879";
 }
 
-.sec.contact .right ul li:last-child:before {
+.sec.contact .right .tooltip:last-child .copy::before {
     content: "\f0e0";
+}
+
+.sec.contact .right .tooltip input.copyvalue {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1px;
+    height: 1px;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.sec.contact .right .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 140px;
+    background-color: rgba(var(--text-color), 0.8);
+    color: rgb(var(--bg-color));
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px;
+    position: absolute;
+    z-index: 1;
+    bottom: 150%;
+    left: 50%;
+    margin-left: -75px;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.sec.contact .right .tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: rgba(var(--text-color), 0.8) transparent transparent transparent;
+}
+
+.sec.contact .right .tooltip:hover .tooltiptext {
+    font-size: 14px;
+    visibility: visible;
+    opacity: 1;
 }
 
 .btGroup2 {
@@ -755,6 +829,7 @@ main .content .mine .message.last:after {
     position: relative;
     cursor: pointer;
 }
+
 .btGroup2 .darkmode:hover {
     box-shadow: -2px -2px 2px var(--second-hover-color);
 }
@@ -763,7 +838,7 @@ main .content .mine .message.last:after {
     font-family: "Font Awesome 5 Free";
     content: "\f186";
     font-size: 31px;
-    color: var(--text-color);
+    color: rgb(var(--text-color));;
     position: absolute;
     top: 20%;
     left: 50%;
@@ -782,6 +857,6 @@ footer {
 
 footer p {
     font-size: 20px;
-    color: var(--text-color);
+    color: rgb(var(--text-color));
     text-align: center;
 }

@@ -45,7 +45,7 @@ $(document).ready(function () {
     setInterval(typeWriter1, 100);
     setInterval(typeWriter2, 1000);
   }
-  var intervalID = setInterval(interval(), 100);
+  setInterval(interval(), 100);
   // function interval() {
   //   setInterval(function () {
   //     typeWriter1()
@@ -68,7 +68,7 @@ $(document).ready(function () {
   });
 
   //toggle between showing and hiding the collapsible content
-  $('.collapsible').on('click', function() {
+  $('.collapsible').on('click', function () {
     $(this).toggleClass('on');
     $(this).siblings('.content').slideToggle();
   });
@@ -89,6 +89,20 @@ $(document).ready(function () {
         console.log('전송실패', error);
       });
   });
+
+  //click contact copy to clipboard
+  $('.tooltip').click(function () {
+    var tooltip = $(this).find('.tooltiptext');
+    tooltip[0].innerHTML = 'Copy to clipboard!';
+    var value = $(this).find('input');
+    value.select();
+    document.execCommand('Copy');
+    tooltip[0].innerHTML = "Copied!";
+  });
+  $('.tooltip').on('mouseout', function () {
+    var tooltip = $(this).find('.tooltiptext');
+    tooltip[0].innerHTML = "Copy to clipboard!";
+  })
 });
 
 //progress bar and text animate
