@@ -329,9 +329,20 @@ main .content .mine .message.last:after {
     line-height: 60px;
     font-style: italic;
     margin-bottom: 40px;
-    padding-left: 35px;
+    padding: 0 10px 0 35px;
     position: relative;
+    display: inline-block;
     cursor: pointer;
+}
+.sec.project .contents .pj h2:hover::after {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 92%;
+    height: 2px;
+    background: var(--text-color);
 }
 .sec.project .contents .pj h2::before {
     content: "";
