@@ -35,9 +35,16 @@ main .content .connectTime {
     font-size: 12px;
     margin-bottom: 20px;
 }
-main .content img {
-    width: 150px;
-    height: 150px;
+main .content #imageChange {
+    display: inline-block;
+    width: 250px;
+    height: 200px;
+    background: url(/portfolio/img/memoji_light_mode.gif) no-repeat center;
+    background-size: 300px;
+}
+main .content #imageChange.dark {
+    background: url(/portfolio/img/memoji_dark_mode.gif) no-repeat center;
+    background-size: 300px;
 }
 main .content .messages {
     margin-top: 20px;
@@ -45,11 +52,15 @@ main .content .messages {
 main .content .message {
     font-size: 15px;
     padding: 4px 15px;
+    line-height: 25px;
 }
 main .content .mine .message {
     margin-left: 0;
-    min-height: 20px;
+    min-height: 33px;
     text-align: left;
+}
+main .content .yours .message {
+    margin-right: 20%;
 }
 main .content .yours .message.last::before {
     width: 15px;
@@ -95,6 +106,7 @@ main .content .yours .message.last::after {
 }
 .sec.info .contents .introduce ul li span, .sec.info .contents .introduce ul li > ul > li {
     font-size: 15px;
+    word-break: keep-all;
 }
 .sec.info .contents .introduce ul li > ul {
     width: 100%;
@@ -181,6 +193,7 @@ main .content .yours .message.last::after {
 .sec.project .contents .pj .detail .right .goTo {
     position: relative;
     text-align: left;
+    margin: 15px 0;
 }
 .sec.project .contents .pj .detail .goTo a {
     font-size: 13px;
@@ -252,6 +265,11 @@ main .content .yours .message.last::after {
 }
 .sec.contact .right {
     width: 100%;
+}
+.sec.contact .right::before {
+    width: 80px;
+    height: 80px;
+    bottom: 0;
 }
 .sec.contact .right h2 {
     font-size: 18px;

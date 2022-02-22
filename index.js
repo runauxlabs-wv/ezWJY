@@ -21,7 +21,7 @@ $(document).ready(function () {
   var i = 0;
   var j = 0;
   var txt = '그럼에도 불구하고 멈추지 않는 사람, 끊임없이 발전하는 사람';
-  var txt2 = '원진영입니다';
+  var txt2 = '원진영입니다.';
   var speed = 50;
   var $first = document.querySelector('.chat .mine .first');
   var $last = document.querySelector('.chat .mine .last');
