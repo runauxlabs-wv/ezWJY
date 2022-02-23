@@ -29,7 +29,7 @@
     --second-color: #262626;
     --second-text-color: #858585;
     --second-hover-color: rgb(0, 0, 0);
-    --ani-color: 0, 106, 219;
+    --ani-color: 255, 255, 255;
 }
 
 .inner {
@@ -753,7 +753,7 @@ main .content .mine .message.last:after {
 	width: 30px;
 	transform: scale(1);
 	animation: pulse-black 2s infinite;
-    background: rgba(var(--ani-color), 0.2);
+    background: rgba(var(--ani-color), 0.3);
     box-shadow: 0 0 0 0 rgba(var(--ani-color), 1);
     animation: pulse-blue 2s infinite;
 }

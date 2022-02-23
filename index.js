@@ -45,7 +45,7 @@ $(document).ready(function () {
     setInterval(typeWriter1, 100);
     setInterval(typeWriter2, 1000);
   }
-  setInterval(interval(), 100);
+  setInterval(interval(), 1000);
   // function interval() {
   //   setInterval(function () {
   //     typeWriter1()
@@ -102,7 +102,7 @@ $(document).ready(function () {
   $('.tooltip').on('mouseout', function () {
     var tooltip = $(this).find('.tooltiptext');
     tooltip[0].innerHTML = "Copy to clipboard!";
-  })
+  });
 });
 
 //progress bar and text animate
@@ -133,7 +133,7 @@ function progressAnimate() {
     }).animate({
       countNum: countTo
     }, {
-      duration: 3000,
+      duration: 1000,
       easing: 'linear',
       step: function () {
         $this.text(Math.floor(this.countNum) + '%');
