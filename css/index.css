@@ -812,7 +812,7 @@ main .content .mine .message.last:after {
     margin: 0;
     padding: 0;
     border: 0;
-    visibility: hidden;
+    opacity: 0;
 }
 
 .sec.contact .right .tooltip .tooltiptext {

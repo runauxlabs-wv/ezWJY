@@ -96,7 +96,7 @@ $(document).ready(function () {
     tooltip[0].innerHTML = 'Copy to clipboard!';
     var value = $(this).find('input');
     value.select();
-    document.execCommand('Copy');
+    document.execCommand('copy');
     tooltip[0].innerHTML = "Copied!";
   });
   $('.tooltip').on('mouseout', function () {
