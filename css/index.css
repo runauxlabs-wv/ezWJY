@@ -741,7 +741,7 @@ main .content .mine .message.last:after {
 .sec.contact .right .tooltip {
     position: relative;
     display: inline-block;
-    width: 100%;
+    margin-right: 50px;
 }
 
 .sec.contact .right .tooltip::before {
